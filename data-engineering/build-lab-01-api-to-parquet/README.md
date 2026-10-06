@@ -115,4 +115,4 @@ between pipelines and analytics.
 Part 2: schedule the pipeline and catch bad rows before they reach the file.
 
 ---
-Previous: [07 · Linear regression, no libraries](../../07-linear-regression-no-libraries) · [All lessons](../../README.md)
+Previous: [07 · Linear regression, no libraries](../../machine-learning/07-linear-regression-no-libraries) · [All lessons](../../README.md)

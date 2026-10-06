@@ -2,7 +2,7 @@
 
 <img src="https://img.shields.io/badge/level-intermediate-B45309?style=flat-square" alt="intermediate"> <img src="https://img.shields.io/badge/video-100s_%2B_34s_short-7C3AED?style=flat-square&logo=youtube&logoColor=white" alt="video 100s + 34s short"> <img src="https://img.shields.io/badge/uses-standard_library-2563EB?style=flat-square&logo=python&logoColor=white" alt="standard library"> <img src="https://img.shields.io/badge/topic-evals-0E1525?style=flat-square" alt="evals">
 
-<img src="../assets/gifs/05-evals-loop-engineering.gif" width="260" align="right" alt="Loop engineering video">
+<img src="../../assets/gifs/05-evals-loop-engineering.gif" width="260" align="right" alt="Loop engineering video">
 
 **From 60% to 100% without guessing.** A support-ticket router sends tickets to the right team. Instead of hoping
 a change helps, we build an eval set of 10 labeled tickets, score the router, read the failures, fix them, and score
@@ -84,4 +84,4 @@ real eval sets grow every time production finds a new failure.
 4. Swap `route()` for a real LLM call and see if your pass rate holds.
 
 ---
-Previous: [04 · Ontologies](../04-ontology) · Next: [06 · RAG from scratch](../06-rag) · [All lessons](../README.md)
+Previous: [04 · Ontologies](../04-ontology) · Next: [06 · RAG from scratch](../../ai-engineering/06-rag) · [All lessons](../../README.md)

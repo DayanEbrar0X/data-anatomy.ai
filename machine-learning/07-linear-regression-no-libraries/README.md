@@ -2,7 +2,7 @@
 
 <img src="https://img.shields.io/badge/level-beginner-047857?style=flat-square" alt="beginner"> <img src="https://img.shields.io/badge/video-80s_%2B_32s_short-7C3AED?style=flat-square&logo=youtube&logoColor=white" alt="video 80s + 32s short"> <img src="https://img.shields.io/badge/uses-no_libraries-2563EB?style=flat-square&logo=python&logoColor=white" alt="no libraries"> <img src="https://img.shields.io/badge/topic-regression-0E1525?style=flat-square" alt="regression">
 
-<img src="../assets/gifs/07-linear-regression-no-libraries.gif" width="260" align="right" alt="Linear regression video">
+<img src="../../assets/gifs/07-linear-regression-no-libraries.gif" width="260" align="right" alt="Linear regression video">
 
 **15 lines of Python that learn. No imports.** Ten delivery trips, each with a distance and a time. Start with a flat
 line, measure every error, nudge two numbers, repeat a thousand times. The program learns
@@ -90,4 +90,4 @@ to beat.
 4. Compare with `numpy.polyfit(km, mins, 1)`. Same answer?
 
 ---
-Previous: [06 · RAG from scratch](../06-rag) · Next: [Build Lab 01 · API to Parquet](../build-lab/01-api-to-parquet) · [All lessons](../README.md)
+Previous: [06 · RAG from scratch](../../ai-engineering/06-rag) · Next: [Build Lab 01 · API to Parquet](../../data-engineering/build-lab-01-api-to-parquet) · [All lessons](../../README.md)

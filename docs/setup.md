@@ -45,8 +45,8 @@ Lessons 03 to 07 use only the Python standard library.
 The code from each video is in the lesson's `src/` folder, and the short version (if there is one) is in `short/`:
 
 ```bash
-python3 00-machine-learning/src/learn.py
-python3 04-ontology/short/ontology.py
+python3 machine-learning/00-what-is-machine-learning/src/learn.py
+python3 methodologies/04-ontology/short/ontology.py
 ```
 
 Lessons find their own data files, so you can run them from any folder. The one exception is Build Lab: like the

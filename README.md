@@ -39,7 +39,7 @@ the numbers these files print.
 <!-- latest:start -->
 ## Latest video
 
-<a href="build-lab/01-api-to-parquet"><img src="assets/gifs/build-lab-01-api-to-parquet.gif" width="220" align="left" alt="API to Parquet"></a>
+<a href="data-engineering/build-lab-01-api-to-parquet"><img src="assets/gifs/build-lab-01-api-to-parquet.gif" width="220" align="left" alt="API to Parquet"></a>
 
 **Build Lab, Part 1: API to Parquet**
 
@@ -47,31 +47,55 @@ Build a real data pipeline in three Python files: fetch paginated JSON from an A
 write Parquet, and query it with DuckDB. 19.0 KB of JSON becomes 5.6 KB of Parquet.
 
 Watch: [YouTube](https://www.youtube.com/@datanatomyai) · [TikTok](https://www.tiktok.com/@datanatomy.ai) · [Instagram](https://www.instagram.com/datanatomy.ai)
-Code: [`build-lab/01-api-to-parquet`](build-lab/01-api-to-parquet)
+Code: [`data-engineering/build-lab-01-api-to-parquet`](data-engineering/build-lab-01-api-to-parquet)
 
 <br clear="left">
 <!-- latest:end -->
 
 ## Lessons
 
-### Model Anatomy: how ML and AI work from the inside
+Lessons are grouped by domain. The numbers match the episode numbers in the videos.
+
+| Domain | Lessons |
+|--------|---------|
+| [Machine learning](machine-learning) | [What is machine learning](machine-learning/00-what-is-machine-learning), [Gradient descent](machine-learning/01-gradient-descent), [Linear regression, no libraries](machine-learning/07-linear-regression-no-libraries), [K-means clustering](machine-learning/02-k-means) |
+| [AI engineering](ai-engineering) | [The AI agent loop](ai-engineering/03-ai-agent-loop), [RAG from scratch](ai-engineering/06-rag) |
+| [Methodologies](methodologies) | [Ontologies for AI agents](methodologies/04-ontology), [Evals and loop engineering](methodologies/05-evals-loop-engineering) |
+| [Data engineering](data-engineering) | [API to Parquet](data-engineering/build-lab-01-api-to-parquet) |
+| [Data architecture](data-architecture) | coming soon |
+| [Exploratory data analysis](exploratory-data-analysis) | coming soon |
+| [Software engineering](software-engineering) | coming soon |
+| [Backend](backend) | coming soon |
+| [Build Projects](build-projects) | coming soon: big, end-to-end projects |
+
+### [Machine learning](machine-learning)
 
 | # | Lesson | You'll learn | Video |
 |---|--------|--------------|-------|
-| 00 | [Machine learning](00-machine-learning) | What "learning from examples" means, with a line that fits itself to 40 house prices | 35s |
-| 01 | [Gradient descent](01-gradient-descent) | How every model improves: feel the slope, take a small step, repeat | 32s |
-| 02 | [K-means clustering](02-k-means) | Finding groups in data nobody labeled | 31s |
-| 03 | [The AI agent loop](03-ai-agent-loop) | Think, act, observe: the loop behind every AI agent, with tools and a guardrail | 83s |
-| 04 | [Ontologies for AI agents](04-ontology) | Why agents need named relationships to answer multi-hop questions | 92s + 34s |
-| 05 | [Evals and loop engineering](05-evals-loop-engineering) | Measuring an AI system, fixing it, and keeping it from breaking again | 100s + 34s |
-| 06 | [RAG from scratch](06-rag) | How an assistant answers from your own documents, with a source | 95s + 30s |
-| 07 | [Linear regression, no libraries](07-linear-regression-no-libraries) | The full training loop in plain Python, and what breaks it | 80s + 32s |
+| 00 | [What is machine learning](machine-learning/00-what-is-machine-learning) | What "learning from examples" means, with a line that fits itself to 40 house prices | 35s |
+| 01 | [Gradient descent](machine-learning/01-gradient-descent) | How every model improves: feel the slope, take a small step, repeat | 32s |
+| 07 | [Linear regression, no libraries](machine-learning/07-linear-regression-no-libraries) | The full training loop in plain Python, and what breaks it | 80s + 32s |
+| 02 | [K-means clustering](machine-learning/02-k-means) | Finding groups in data nobody labeled | 31s |
 
-### Build Lab: real projects, built step by step
+### [AI engineering](ai-engineering)
 
-| # | Project | You'll build | Video |
-|---|---------|--------------|-------|
-| 01 | [API to Parquet](build-lab/01-api-to-parquet) | A three-file data pipeline: API pages to a clean, typed, queryable Parquet file | 99s |
+| # | Lesson | You'll learn | Video |
+|---|--------|--------------|-------|
+| 03 | [The AI agent loop](ai-engineering/03-ai-agent-loop) | Think, act, observe: the loop behind every AI agent, with tools and a guardrail | 83s |
+| 06 | [RAG from scratch](ai-engineering/06-rag) | How an assistant answers from your own documents, with a source | 95s + 30s |
+
+### [Methodologies](methodologies)
+
+| # | Lesson | You'll learn | Video |
+|---|--------|--------------|-------|
+| 04 | [Ontologies for AI agents](methodologies/04-ontology) | Why agents need named relationships to answer multi-hop questions | 92s + 34s |
+| 05 | [Evals and loop engineering](methodologies/05-evals-loop-engineering) | Measuring an AI system, fixing it, and keeping it from breaking again | 100s + 34s |
+
+### [Data engineering](data-engineering)
+
+| # | Lesson | You'll learn | Video |
+|---|--------|--------------|-------|
+| BL01 | [Build Lab 01 · API to Parquet](data-engineering/build-lab-01-api-to-parquet) | A three-file data pipeline: API pages to a clean, typed, queryable Parquet file | 99s |
 
 New to this? Start with the [learning path](docs/learning-path.md).
 
@@ -81,19 +105,19 @@ Every lesson, moving. Click one to open its code and walkthrough.
 
 <table>
   <tr>
-    <td align="center" width="33%"><a href="00-machine-learning"><img src="assets/gifs/00-machine-learning.gif" width="220" alt="00 · Machine learning"></a><br><b><a href="00-machine-learning">00 · Machine learning</a></b></td>
-    <td align="center" width="33%"><a href="01-gradient-descent"><img src="assets/gifs/01-gradient-descent.gif" width="220" alt="01 · Gradient descent"></a><br><b><a href="01-gradient-descent">01 · Gradient descent</a></b></td>
-    <td align="center" width="33%"><a href="02-k-means"><img src="assets/gifs/02-k-means.gif" width="220" alt="02 · K-means"></a><br><b><a href="02-k-means">02 · K-means</a></b></td>
+    <td align="center" width="33%"><a href="machine-learning/00-what-is-machine-learning"><img src="assets/gifs/00-machine-learning.gif" width="220" alt="00 · What is machine learning"></a><br><b><a href="machine-learning/00-what-is-machine-learning">00 · What is machine learning</a></b></td>
+    <td align="center" width="33%"><a href="machine-learning/01-gradient-descent"><img src="assets/gifs/01-gradient-descent.gif" width="220" alt="01 · Gradient descent"></a><br><b><a href="machine-learning/01-gradient-descent">01 · Gradient descent</a></b></td>
+    <td align="center" width="33%"><a href="machine-learning/02-k-means"><img src="assets/gifs/02-k-means.gif" width="220" alt="02 · K-means"></a><br><b><a href="machine-learning/02-k-means">02 · K-means</a></b></td>
   </tr>
   <tr>
-    <td align="center" width="33%"><a href="03-ai-agent-loop"><img src="assets/gifs/03-ai-agent-loop.gif" width="220" alt="03 · The agent loop"></a><br><b><a href="03-ai-agent-loop">03 · The agent loop</a></b></td>
-    <td align="center" width="33%"><a href="04-ontology"><img src="assets/gifs/04-ontology.gif" width="220" alt="04 · Ontologies"></a><br><b><a href="04-ontology">04 · Ontologies</a></b></td>
-    <td align="center" width="33%"><a href="05-evals-loop-engineering"><img src="assets/gifs/05-evals-loop-engineering.gif" width="220" alt="05 · Evals"></a><br><b><a href="05-evals-loop-engineering">05 · Evals</a></b></td>
+    <td align="center" width="33%"><a href="ai-engineering/03-ai-agent-loop"><img src="assets/gifs/03-ai-agent-loop.gif" width="220" alt="03 · The agent loop"></a><br><b><a href="ai-engineering/03-ai-agent-loop">03 · The agent loop</a></b></td>
+    <td align="center" width="33%"><a href="methodologies/04-ontology"><img src="assets/gifs/04-ontology.gif" width="220" alt="04 · Ontologies"></a><br><b><a href="methodologies/04-ontology">04 · Ontologies</a></b></td>
+    <td align="center" width="33%"><a href="methodologies/05-evals-loop-engineering"><img src="assets/gifs/05-evals-loop-engineering.gif" width="220" alt="05 · Evals"></a><br><b><a href="methodologies/05-evals-loop-engineering">05 · Evals</a></b></td>
   </tr>
   <tr>
-    <td align="center" width="33%"><a href="06-rag"><img src="assets/gifs/06-rag.gif" width="220" alt="06 · RAG from scratch"></a><br><b><a href="06-rag">06 · RAG from scratch</a></b></td>
-    <td align="center" width="33%"><a href="07-linear-regression-no-libraries"><img src="assets/gifs/07-linear-regression-no-libraries.gif" width="220" alt="07 · Linear regression"></a><br><b><a href="07-linear-regression-no-libraries">07 · Linear regression</a></b></td>
-    <td align="center" width="33%"><a href="build-lab/01-api-to-parquet"><img src="assets/gifs/build-lab-01-api-to-parquet.gif" width="220" alt="Build Lab 01 · API to Parquet"></a><br><b><a href="build-lab/01-api-to-parquet">Build Lab 01 · API to Parquet</a></b></td>
+    <td align="center" width="33%"><a href="ai-engineering/06-rag"><img src="assets/gifs/06-rag.gif" width="220" alt="06 · RAG from scratch"></a><br><b><a href="ai-engineering/06-rag">06 · RAG from scratch</a></b></td>
+    <td align="center" width="33%"><a href="machine-learning/07-linear-regression-no-libraries"><img src="assets/gifs/07-linear-regression-no-libraries.gif" width="220" alt="07 · Linear regression"></a><br><b><a href="machine-learning/07-linear-regression-no-libraries">07 · Linear regression</a></b></td>
+    <td align="center" width="33%"><a href="data-engineering/build-lab-01-api-to-parquet"><img src="assets/gifs/build-lab-01-api-to-parquet.gif" width="220" alt="Build Lab 01 · API to Parquet"></a><br><b><a href="data-engineering/build-lab-01-api-to-parquet">Build Lab 01 · API to Parquet</a></b></td>
   </tr>
 </table>
 
@@ -107,27 +131,34 @@ cd data-anatomy.ai
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 
-python3 03-ai-agent-loop/src/agent.py    # run any lesson
+python3 ai-engineering/03-ai-agent-loop/src/agent.py    # run any lesson
 ```
 
-Lessons 03, 04, 05, 06 and 07 use only the Python standard library. Lessons 00 to 02 need NumPy, and the Build Lab
-project needs pandas, PyArrow and DuckDB. More detail in [docs/setup.md](docs/setup.md).
+Lessons 03 to 07 use only the Python standard library. Lessons 00 to 02 need NumPy, and Build Lab 01 needs
+pandas, PyArrow and DuckDB. More detail in [docs/setup.md](docs/setup.md).
 
 ## How the repo is organized
 
 ```
 data-anatomy.ai/
-├── 00-machine-learning/ ... 07-linear-regression-no-libraries/    Model Anatomy lessons
-├── build-lab/                                                      Build Lab projects
-├── docs/                                                           learning path, setup, glossary
-├── assets/                                                         banner, logo, GIFs
+├── machine-learning/            how models learn
+├── ai-engineering/              agents, RAG, building with LLMs
+├── methodologies/               ontologies, evals, loop engineering
+├── data-engineering/            pipelines and file formats
+├── data-architecture/           how data is organized across systems
+├── exploratory-data-analysis/   getting to know a dataset
+├── software-engineering/        code that lasts
+├── backend/                     APIs, databases, services
+├── build-projects/              big, end-to-end projects
+├── docs/                        learning path, setup, glossary
+├── assets/                      banner, logo, GIFs
 └── requirements.txt
 ```
 
 Every lesson uses the same layout, the one real Python projects use:
 
 ```
-04-ontology/
+methodologies/04-ontology/
 ├── README.md         the idea, how to run it, a line-by-line walkthrough, things to try
 ├── data/             the data, as plain CSV or JSON files
 ├── scripts/          one-off scripts that generated the data (when there are any)

@@ -2,7 +2,7 @@
 
 <img src="https://img.shields.io/badge/level-beginner-047857?style=flat-square" alt="beginner"> <img src="https://img.shields.io/badge/video-32s-7C3AED?style=flat-square&logo=youtube&logoColor=white" alt="video 32s"> <img src="https://img.shields.io/badge/uses-numpy-2563EB?style=flat-square&logo=python&logoColor=white" alt="numpy"> <img src="https://img.shields.io/badge/topic-optimization-0E1525?style=flat-square" alt="optimization">
 
-<img src="../assets/gifs/01-gradient-descent.gif" width="260" align="right" alt="Gradient descent video">
+<img src="../../assets/gifs/01-gradient-descent.gif" width="260" align="right" alt="Gradient descent video">
 
 **Every AI learns by walking downhill.** Picture the model standing on a hill, blindfolded. The height of the hill
 is how wrong it is. It can't see the bottom, so it feels the slope under its feet and takes a small step down.
@@ -74,4 +74,4 @@ and Adam were invented to smooth out exactly this.
 4. Change the `10` in the loss and gradient to `1`. The valley becomes a round bowl. How does the path change?
 
 ---
-Previous: [00 · Machine learning](../00-machine-learning) · Next: [02 · K-means](../02-k-means) · [All lessons](../README.md)
+Previous: [00 · What is machine learning](../00-what-is-machine-learning) · Next: [02 · K-means](../02-k-means) · [All lessons](../../README.md)

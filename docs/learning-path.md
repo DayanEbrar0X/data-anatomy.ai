@@ -16,10 +16,10 @@ The lessons build on each other. If you are new, go in this order.
 
 | # | Lesson | You will understand |
 |---|--------|---------------------|
-| 00 | [Machine learning](../00-machine-learning) | What "learning from examples" means, in 8 lines. |
-| 01 | [Gradient descent](../01-gradient-descent) | How every model improves: feel the slope, step downhill. |
-| 07 | [Linear regression, no libraries](../07-linear-regression-no-libraries) | The full training loop written out by hand, and what a bad learning rate does. |
-| 02 | [K-means](../02-k-means) | How a program finds groups in data that has no labels. |
+| 00 | [What is machine learning](../machine-learning/00-what-is-machine-learning) | What "learning from examples" means, in 8 lines. |
+| 01 | [Gradient descent](../machine-learning/01-gradient-descent) | How every model improves: feel the slope, step downhill. |
+| 07 | [Linear regression, no libraries](../machine-learning/07-linear-regression-no-libraries) | The full training loop written out by hand, and what a bad learning rate does. |
+| 02 | [K-means](../machine-learning/02-k-means) | How a program finds groups in data that has no labels. |
 
 Lesson 07 comes right after 01 on purpose: it repeats lesson 00 with no NumPy, so you see every step.
 
@@ -27,10 +27,10 @@ Lesson 07 comes right after 01 on purpose: it repeats lesson 00 with no NumPy, s
 
 | # | Lesson | You will understand |
 |---|--------|---------------------|
-| 03 | [The AI agent loop](../03-ai-agent-loop) | Think, act, observe, repeat: how agents use tools. |
-| 06 | [RAG from scratch](../06-rag) | How an assistant answers from your own documents. |
-| 04 | [Ontologies](../04-ontology) | How an agent connects facts across systems. |
-| 05 | [Evals and loop engineering](../05-evals-loop-engineering) | How to improve an AI system with measurements instead of guesses. |
+| 03 | [The AI agent loop](../ai-engineering/03-ai-agent-loop) | Think, act, observe, repeat: how agents use tools. |
+| 06 | [RAG from scratch](../ai-engineering/06-rag) | How an assistant answers from your own documents. |
+| 04 | [Ontologies](../methodologies/04-ontology) | How an agent connects facts across systems. |
+| 05 | [Evals and loop engineering](../methodologies/05-evals-loop-engineering) | How to improve an AI system with measurements instead of guesses. |
 
 ## Build Lab
 
@@ -38,7 +38,7 @@ Build Lab episodes are projects. Each one builds a small, real piece of software
 
 | Project | Parts |
 |---------|-------|
-| [01 · API to Parquet](../build-lab/01-api-to-parquet) | Part 1: fetch, clean, write Parquet, query with DuckDB |
+| [01 · API to Parquet](../data-engineering/build-lab-01-api-to-parquet) | Part 1: fetch, clean, write Parquet, query with DuckDB |
 
 ## What you need to know first
 
