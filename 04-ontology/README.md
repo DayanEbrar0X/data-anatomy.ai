@@ -1,6 +1,8 @@
 # 04 · What an ontology gives an AI agent
 
-<img src="../assets/thumbnails/04-ontology.jpg" width="240" align="right" alt="Ontology video">
+<img src="https://img.shields.io/badge/level-intermediate-B45309?style=flat-square" alt="intermediate"> <img src="https://img.shields.io/badge/video-92s_%2B_34s_short-7C3AED?style=flat-square&logo=youtube&logoColor=white" alt="video 92s + 34s short"> <img src="https://img.shields.io/badge/uses-standard_library-2563EB?style=flat-square&logo=python&logoColor=white" alt="standard library"> <img src="https://img.shields.io/badge/topic-knowledge_graphs-0E1525?style=flat-square" alt="knowledge graphs">
+
+<img src="../assets/gifs/04-ontology.gif" width="260" align="right" alt="Ontology video">
 
 **Why your AI agent can't connect the dots.** "Supplier Acme is late. Which customers are affected?" The answer is
 spread over three systems: purchasing, product data and orders. An ontology names the links between them, so the

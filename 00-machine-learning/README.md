@@ -1,6 +1,8 @@
 # 00 · Machine learning
 
-<img src="../assets/thumbnails/00-machine-learning.jpg" width="240" align="right" alt="Machine learning video">
+<img src="https://img.shields.io/badge/level-beginner-047857?style=flat-square" alt="beginner"> <img src="https://img.shields.io/badge/video-35s-7C3AED?style=flat-square&logo=youtube&logoColor=white" alt="video 35s"> <img src="https://img.shields.io/badge/uses-numpy-2563EB?style=flat-square&logo=python&logoColor=white" alt="numpy"> <img src="https://img.shields.io/badge/topic-supervised_learning-0E1525?style=flat-square" alt="supervised learning">
+
+<img src="../assets/gifs/00-machine-learning.gif" width="260" align="right" alt="Machine learning video">
 
 **Nobody told this line where to go.** It looks at 40 houses, guesses prices, measures how wrong it was, and nudges
 two numbers. After 2,000 tries it has learned a rule for pricing houses, without anyone writing that rule.

@@ -3,18 +3,36 @@
 </p>
 
 <p align="center">
-  <a href="https://www.youtube.com/@datanatomyai">YouTube</a> ·
-  <a href="https://www.tiktok.com/@datanatomy.ai">TikTok</a> ·
-  <a href="https://www.instagram.com/datanatomy.ai">Instagram</a> ·
-  <a href="https://x.com/datanatomyai">X</a> ·
-  <a href="https://www.linkedin.com/company/datanatomy">LinkedIn</a> ·
-  <a href="https://www.threads.net/@datanatomy.ai">Threads</a>
+  <a href="https://www.youtube.com/@datanatomyai"><img src="https://img.shields.io/badge/YouTube-datanatomyai-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"></a>
+  <a href="https://www.tiktok.com/@datanatomy.ai"><img src="https://img.shields.io/badge/TikTok-datanatomy.ai-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok"></a>
+  <a href="https://www.instagram.com/datanatomy.ai"><img src="https://img.shields.io/badge/Instagram-datanatomy.ai-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a>
+  <br>
+  <a href="https://x.com/datanatomyai"><img src="https://img.shields.io/badge/X-datanatomyai-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"></a>
+  <a href="https://www.linkedin.com/company/datanatomy"><img src="https://img.shields.io/badge/LinkedIn-Datanatomy-0A66C2?style=for-the-badge" alt="LinkedIn"></a>
+  <a href="https://www.threads.net/@datanatomy.ai"><img src="https://img.shields.io/badge/Threads-datanatomy.ai-000000?style=for-the-badge&logo=threads&logoColor=white" alt="Threads"></a>
 </p>
 
-# Model Anatomy
+<p align="center">
+  <a href="https://github.com/DayanEbrar0X/data-anatomy.ai/actions/workflows/tests.yml"><img src="https://github.com/DayanEbrar0X/data-anatomy.ai/actions/workflows/tests.yml/badge.svg" alt="tests"></a>
+  <img src="https://img.shields.io/badge/python-3.10%2B-2563EB?style=flat-square&logo=python&logoColor=white" alt="Python 3.10+">
+  <img src="https://img.shields.io/badge/lessons-8-7C3AED?style=flat-square" alt="8 lessons">
+  <img src="https://img.shields.io/badge/build_lab-1_project-B45309?style=flat-square" alt="1 Build Lab project">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-047857?style=flat-square" alt="MIT license"></a>
+</p>
+
+# Datanatomy
 
 The code behind every Datanatomy video. Each lesson is a short, real program you can run in a few seconds,
 paired with a video that walks through it line by line while an animation shows what each line does.
+
+<p align="center">
+  <img src="assets/gifs/hero.gif" alt="Gradient descent, k-means, ontologies and a data pipeline, animated" width="100%">
+</p>
+
+Two series:
+
+- **Model Anatomy** opens up how ML and AI actually work: gradient descent, clustering, agents, RAG, evals.
+- **Build Lab** builds real projects step by step, the way you would at work.
 
 No black boxes: the models here are small enough to read in one sitting, and the numbers you see in the videos are
 the numbers these files print.
@@ -22,7 +40,7 @@ the numbers these files print.
 <!-- latest:start -->
 ## Latest video
 
-<a href="build-lab/01-api-to-parquet"><img src="assets/thumbnails/build-lab-01-api-to-parquet.jpg" width="220" align="left" alt="API to Parquet"></a>
+<a href="build-lab/01-api-to-parquet"><img src="assets/gifs/build-lab-01-api-to-parquet.gif" width="220" align="left" alt="API to Parquet"></a>
 
 **Build Lab, Part 1: API to Parquet**
 
@@ -58,6 +76,28 @@ Code: [`build-lab/01-api-to-parquet`](build-lab/01-api-to-parquet)
 
 New to this? Start with the [learning path](docs/learning-path.md).
 
+## Gallery
+
+Every lesson, moving. Click one to open its code and walkthrough.
+
+<table>
+  <tr>
+    <td align="center" width="33%"><a href="00-machine-learning"><img src="assets/gifs/00-machine-learning.gif" width="220" alt="00 · Machine learning"></a><br><b><a href="00-machine-learning">00 · Machine learning</a></b></td>
+    <td align="center" width="33%"><a href="01-gradient-descent"><img src="assets/gifs/01-gradient-descent.gif" width="220" alt="01 · Gradient descent"></a><br><b><a href="01-gradient-descent">01 · Gradient descent</a></b></td>
+    <td align="center" width="33%"><a href="02-k-means"><img src="assets/gifs/02-k-means.gif" width="220" alt="02 · K-means"></a><br><b><a href="02-k-means">02 · K-means</a></b></td>
+  </tr>
+  <tr>
+    <td align="center" width="33%"><a href="03-ai-agent-loop"><img src="assets/gifs/03-ai-agent-loop.gif" width="220" alt="03 · The agent loop"></a><br><b><a href="03-ai-agent-loop">03 · The agent loop</a></b></td>
+    <td align="center" width="33%"><a href="04-ontology"><img src="assets/gifs/04-ontology.gif" width="220" alt="04 · Ontologies"></a><br><b><a href="04-ontology">04 · Ontologies</a></b></td>
+    <td align="center" width="33%"><a href="05-evals-loop-engineering"><img src="assets/gifs/05-evals-loop-engineering.gif" width="220" alt="05 · Evals"></a><br><b><a href="05-evals-loop-engineering">05 · Evals</a></b></td>
+  </tr>
+  <tr>
+    <td align="center" width="33%"><a href="06-rag"><img src="assets/gifs/06-rag.gif" width="220" alt="06 · RAG from scratch"></a><br><b><a href="06-rag">06 · RAG from scratch</a></b></td>
+    <td align="center" width="33%"><a href="07-linear-regression-no-libraries"><img src="assets/gifs/07-linear-regression-no-libraries.gif" width="220" alt="07 · Linear regression"></a><br><b><a href="07-linear-regression-no-libraries">07 · Linear regression</a></b></td>
+    <td align="center" width="33%"><a href="build-lab/01-api-to-parquet"><img src="assets/gifs/build-lab-01-api-to-parquet.gif" width="220" alt="Build Lab 01 · API to Parquet"></a><br><b><a href="build-lab/01-api-to-parquet">Build Lab 01 · API to Parquet</a></b></td>
+  </tr>
+</table>
+
 ## Run the code
 
 You need Python 3.10 or newer.
@@ -78,11 +118,11 @@ project needs pandas, PyArrow and DuckDB. More detail in [docs/setup.md](docs/se
 ## How the repo is organized
 
 ```
-model-anatomy/
+data-anatomy.ai/
 ├── 00-machine-learning/ ... 07-linear-regression-no-libraries/    Model Anatomy lessons
 ├── build-lab/                                                      Build Lab projects
 ├── docs/                                                           learning path, setup, glossary
-├── assets/                                                         banner, logo, thumbnails
+├── assets/                                                         banner, logo, GIFs
 ├── .github/workflows/tests.yml                                     runs every test on each push
 └── requirements.txt
 ```

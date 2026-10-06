@@ -1,6 +1,8 @@
 # 03 · The AI agent loop
 
-<img src="../assets/thumbnails/03-ai-agent-loop.jpg" width="240" align="right" alt="AI agent loop video">
+<img src="https://img.shields.io/badge/level-intermediate-B45309?style=flat-square" alt="intermediate"> <img src="https://img.shields.io/badge/video-83s-7C3AED?style=flat-square&logo=youtube&logoColor=white" alt="video 83s"> <img src="https://img.shields.io/badge/uses-standard_library-2563EB?style=flat-square&logo=python&logoColor=white" alt="standard library"> <img src="https://img.shields.io/badge/topic-AI_agents-0E1525?style=flat-square" alt="AI agents">
+
+<img src="../assets/gifs/03-ai-agent-loop.gif" width="260" align="right" alt="AI agent loop video">
 
 **Every AI agent runs on one tiny loop: think, act, observe, repeat.** Finance asks "what is 15% of Q3 revenue?".
 The model alone can't know that number, so we give it tools, let it decide what to do at each step, and write what

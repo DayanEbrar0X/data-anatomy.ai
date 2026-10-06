@@ -1,6 +1,8 @@
 # 02 · K-means clustering
 
-<img src="../assets/thumbnails/02-k-means.jpg" width="240" align="right" alt="K-means video">
+<img src="https://img.shields.io/badge/level-beginner-047857?style=flat-square" alt="beginner"> <img src="https://img.shields.io/badge/video-31s-7C3AED?style=flat-square&logo=youtube&logoColor=white" alt="video 31s"> <img src="https://img.shields.io/badge/uses-numpy-2563EB?style=flat-square&logo=python&logoColor=white" alt="numpy"> <img src="https://img.shields.io/badge/topic-unsupervised_learning-0E1525?style=flat-square" alt="unsupervised learning">
+
+<img src="../assets/gifs/02-k-means.gif" width="260" align="right" alt="K-means video">
 
 **300 dots. Zero labels. Find the groups.** K-means drops three pins, sends every dot to its closest pin, moves each
 pin to the middle of its crowd, and repeats until nothing moves. It ends with three clean groups of 100.

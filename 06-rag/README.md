@@ -1,6 +1,8 @@
 # 06 · RAG from scratch
 
-<img src="../assets/thumbnails/06-rag.jpg" width="240" align="right" alt="RAG video">
+<img src="https://img.shields.io/badge/level-intermediate-B45309?style=flat-square" alt="intermediate"> <img src="https://img.shields.io/badge/video-95s_%2B_30s_short-7C3AED?style=flat-square&logo=youtube&logoColor=white" alt="video 95s + 30s short"> <img src="https://img.shields.io/badge/uses-standard_library-2563EB?style=flat-square&logo=python&logoColor=white" alt="standard library"> <img src="https://img.shields.io/badge/topic-retrieval-0E1525?style=flat-square" alt="retrieval">
+
+<img src="../assets/gifs/06-rag.gif" width="260" align="right" alt="RAG video">
 
 **Your AI never read your handbook.** Ask it how many vacation days new hires get and it will guess.
 Retrieval-augmented generation (RAG) fixes that: find the most relevant piece of your own documents, put it in the

@@ -1,6 +1,8 @@
 # Build Lab 01 · API to Parquet
 
-<img src="../../assets/thumbnails/build-lab-01-api-to-parquet.jpg" width="240" align="right" alt="API to Parquet video">
+<img src="https://img.shields.io/badge/level-intermediate-B45309?style=flat-square" alt="intermediate"> <img src="https://img.shields.io/badge/video-99s-7C3AED?style=flat-square&logo=youtube&logoColor=white" alt="video 99s"> <img src="https://img.shields.io/badge/uses-pandas_%C2%B7_pyarrow_%C2%B7_duckdb-2563EB?style=flat-square&logo=python&logoColor=white" alt="pandas · pyarrow · duckdb"> <img src="https://img.shields.io/badge/topic-data_engineering-0E1525?style=flat-square" alt="data engineering">
+
+<img src="../../assets/gifs/build-lab-01-api-to-parquet.gif" width="260" align="right" alt="API to Parquet video">
 
 **JSON in. Parquet out.** A real data pipeline in three files: fetch orders from a paginated API, clean them with
 pandas, write a Parquet file, and query it with DuckDB. 122 rows come in, 120 are kept, and 19.0 KB of JSON
