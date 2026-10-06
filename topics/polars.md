@@ -1,6 +1,6 @@
 # Polars: the fast DataFrame library
 
-<img src="https://img.shields.io/badge/Data_engineering-047857?style=flat-square" alt="Data engineering"> <img src="https://img.shields.io/badge/status-in_production-7C3AED?style=flat-square" alt="in production">
+<img src="https://img.shields.io/badge/Data_engineering-047857?style=flat-square" alt="Data engineering"> <img src="https://img.shields.io/badge/status-lesson_ready-047857?style=flat-square" alt="lesson ready">
 
 > Same question, same data. One library reads the whole file, the other reads only what it needs.
 
@@ -28,7 +28,7 @@ Filters get pushed down into the file scan, and only the needed columns are read
 - **Long form:** A Parquet file drawn as column stripes, with the filter sliding down into the scan and only a few stripes lighting up.
 - **Short:** Read less, finish sooner.
 
-When it's published, the code will live in [`data-engineering/`](../data-engineering) and this page will link to it.
+The lesson is ready: code and a line-by-line walkthrough in [`data-engineering/14-polars/`](../data-engineering/14-polars).
 
 ---
 [All topics](README.md) · [Suggest a topic](https://github.com/DayanEbrar0X/data-anatomy.ai/issues/new?title=Topic+idea%3A+)
