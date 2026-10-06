@@ -1,6 +1,6 @@
 # How a decision tree thinks
 
-<img src="https://img.shields.io/badge/Machine_learning-7C3AED?style=flat-square" alt="Machine learning"> <img src="https://img.shields.io/badge/status-in_production-7C3AED?style=flat-square" alt="in production">
+<img src="https://img.shields.io/badge/Machine_learning-7C3AED?style=flat-square" alt="Machine learning"> <img src="https://img.shields.io/badge/status-lesson_ready-047857?style=flat-square" alt="lesson ready">
 
 > This model plays 20 questions with your data, and you can read every answer.
 
@@ -28,7 +28,7 @@ Trees are the base of random forests and gradient boosting, which still win most
 - **Long form:** Data points split by a vertical line, then a horizontal one, as the tree grows. Each node lights up as the code computes its impurity.
 - **Short:** Three questions, one prediction, and you can see why.
 
-When it's published, the code will live in [`machine-learning/`](../machine-learning) and this page will link to it.
+The lesson is ready: code and a line-by-line walkthrough in [`machine-learning/08-decision-trees/`](../machine-learning/08-decision-trees).
 
 ---
 [All topics](README.md) · [Suggest a topic](https://github.com/DayanEbrar0X/data-anatomy.ai/issues/new?title=Topic+idea%3A+)
