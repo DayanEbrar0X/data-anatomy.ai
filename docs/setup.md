@@ -33,10 +33,15 @@ What gets installed:
 
 | Package | Used by | What for |
 |---------|---------|----------|
-| numpy | 00, 01, 02 | Math on many numbers at once |
-| pandas | Build Lab | Tables |
+| numpy | 00, 01, 02, 08, 09, 10 | Math on many numbers at once |
+| pandas | 11, 12, Build Lab | Tables |
 | pyarrow | Build Lab | Writing Parquet files |
-| duckdb | Build Lab | SQL on files, no database server |
+| duckdb | 12, Build Lab | SQL on files and tables, no database server |
+| scikit-learn | 11 | Comparing models with cross-validation |
+| polars | 14 | Fast DataFrames with a lazy query planner |
+| pyspark | 13 | Spark, run locally |
+| pytesseract, pillow | Build Lab 02 | Making invoice images and reading them with OCR |
+| fastembed, lancedb | Build Lab 02 | Text embeddings and a local vector database |
 
 Lessons 03 to 07 use only the Python standard library.
 
