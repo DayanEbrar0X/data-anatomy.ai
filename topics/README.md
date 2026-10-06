@@ -15,7 +15,7 @@ Have an idea? [Suggest a topic](https://github.com/DayanEbrar0X/data-anatomy.ai/
 | [Linear regression, no libraries](../machine-learning/07-linear-regression-no-libraries) | Watch the video and run the code | Published |
 | [A neural network from scratch](neural-network-from-scratch.md) | One straight line can't solve this four-point puzzle. Two layers can. | [Lesson ready](../machine-learning/09-neural-network-from-scratch) |
 | [How a decision tree thinks](decision-trees.md) | This model plays 20 questions with your data, and you can read every answer. | [Lesson ready](../machine-learning/08-decision-trees) |
-| [Overfitting: why a perfect score is a red flag](overfitting.md) | This model scored 100%. That's the problem. | In production |
+| [Overfitting: why a perfect score is a red flag](overfitting.md) | This model scored 100%. That's the problem. | [Lesson ready](../machine-learning/10-overfitting) |
 | [How to choose an ML algorithm in production](choosing-a-model.md) | There is no best algorithm. Here's how teams actually pick one. | In production |
 
 ## AI engineering
