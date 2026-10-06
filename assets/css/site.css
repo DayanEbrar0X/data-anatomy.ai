@@ -1,0 +1,107 @@
+:root {
+  --bg: #faf9f7;
+  --card: #ffffff;
+  --ink: #0e1525;
+  --muted: #5b6475;
+  --line: #e7e4ee;
+  --violet: #7c3aed;
+  --cobalt: #2563eb;
+  --emerald: #047857;
+  --amber: #b45309;
+  --code-bg: #f4f2f8;
+  --sans: "Geist", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --serif: "Instrument Serif", Georgia, serif;
+  --mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(900px 500px at 10% -10%, #efe9ff 0%, transparent 60%),
+    radial-gradient(800px 500px at 100% 0%, #e6f0ff 0%, transparent 55%),
+    var(--bg);
+  background-repeat: no-repeat;
+  color: var(--ink);
+  font: 16px/1.65 var(--sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--cobalt); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.nav {
+  position: sticky; top: 0; z-index: 10;
+  display: flex; align-items: center; justify-content: space-between; gap: 16px;
+  padding: 12px max(16px, calc((100% - 960px) / 2));
+  background: rgba(250, 249, 247, 0.85);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--line);
+}
+.brand { display: flex; align-items: center; gap: 10px; color: var(--ink); font-weight: 700; font-size: 19px; letter-spacing: -0.01em; }
+.brand:hover { text-decoration: none; }
+.brand img { border-radius: 7px; }
+.brand em { font-family: var(--serif); font-weight: 400; font-size: 23px; color: var(--violet); }
+.nav nav { display: flex; gap: 18px; flex-wrap: wrap; font-size: 14px; font-weight: 500; }
+.nav nav a { color: var(--muted); }
+.nav nav a:hover { color: var(--ink); text-decoration: none; }
+
+.page { max-width: 960px; margin: 0 auto; padding: 28px 16px 64px; }
+
+.code-link {
+  display: inline-block; margin-bottom: 8px; padding: 4px 12px;
+  font: 500 13px var(--mono); color: var(--violet);
+  border: 1px solid #ddd0fb; border-radius: 999px; background: #f6f2ff;
+}
+.code-link:hover { text-decoration: none; background: #efe7ff; }
+
+h1, h2, h3 { line-height: 1.2; letter-spacing: -0.02em; }
+h1 { font-size: clamp(30px, 5vw, 44px); margin: 12px 0 16px; }
+h2 { font-size: 26px; margin: 44px 0 12px; padding-top: 8px; }
+h3 { font-size: 19px; margin: 28px 0 8px; }
+h1 em, h2 em { font-family: var(--serif); font-weight: 400; color: var(--violet); }
+
+p, li { color: #283041; }
+strong { color: var(--ink); }
+hr { border: 0; border-top: 1px solid var(--line); margin: 40px 0 16px; }
+
+img { max-width: 100%; height: auto; }
+img[align="right"] { margin: 0 0 16px 24px; border-radius: 14px; box-shadow: 0 10px 30px rgba(40, 20, 90, 0.12); }
+img[align="left"] { margin: 0 24px 16px 0; border-radius: 14px; box-shadow: 0 10px 30px rgba(40, 20, 90, 0.12); }
+td img { border-radius: 12px; box-shadow: 0 8px 24px rgba(40, 20, 90, 0.10); }
+
+blockquote {
+  margin: 20px 0; padding: 14px 20px;
+  background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--violet);
+  border-radius: 10px; color: var(--ink);
+}
+blockquote p { margin: 0; }
+
+code { font: 0.88em var(--mono); background: var(--code-bg); padding: 2px 6px; border-radius: 6px; }
+pre {
+  overflow-x: auto; padding: 16px 18px;
+  background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+  font: 14px/1.6 var(--mono);
+}
+pre code { background: none; padding: 0; font-size: inherit; }
+
+table { display: block; overflow-x: auto; border-collapse: collapse; margin: 16px 0; font-size: 15px; }
+th, td { padding: 10px 14px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+th { font-size: 13px; text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); }
+tbody tr:hover { background: #fbfaff; }
+
+.foot { max-width: 960px; margin: 0 auto; padding: 24px 16px 48px; border-top: 1px solid var(--line); text-align: center; font-size: 14px; }
+.foot .muted { color: var(--muted); margin-top: 4px; }
+
+.highlight .k, .highlight .kn, .highlight .kd, .highlight .kc { color: var(--violet); }
+.highlight .s, .highlight .s1, .highlight .s2, .highlight .sa { color: var(--emerald); }
+.highlight .c, .highlight .c1, .highlight .cm { color: #8a93a6; font-style: italic; }
+.highlight .mi, .highlight .mf, .highlight .m { color: var(--amber); }
+.highlight .nf, .highlight .nb { color: var(--cobalt); }
+
+@media (max-width: 640px) {
+  img[align] { float: none; display: block; margin: 0 auto 16px; }
+  .nav { flex-direction: column; align-items: flex-start; gap: 6px; }
+  .nav nav { gap: 14px; }
+}

@@ -46,7 +46,7 @@ Build Lab episodes are projects. Each one builds a small, real piece of software
 - **No math background needed.** Where math shows up (a slope, an average, a distance), the README explains it in
   words first.
 
-Words you don't know are in the [glossary](glossary.md).
+Words you don't know are in the [glossary](glossary.md). Want to know what's coming next? See the [topics](../topics/README.md).
 
 ---
 [Back to all lessons](../README.md)

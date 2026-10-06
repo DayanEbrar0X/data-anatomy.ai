@@ -1,0 +1,40 @@
+title: Datanatomy
+description: The code behind every Datanatomy video. Machine learning, AI, data and cloud explained line by line, with real code you can run.
+url: https://dayanebrar0x.github.io
+baseurl: /data-anatomy.ai
+repo_url: https://github.com/DayanEbrar0X/data-anatomy.ai
+logo: /assets/logo.png
+lang: en
+
+twitter:
+  username: datanatomyai
+social:
+  name: Datanatomy
+  links:
+    - https://www.youtube.com/@datanatomyai
+    - https://www.tiktok.com/@datanatomy.ai
+    - https://www.instagram.com/datanatomy.ai
+    - https://x.com/datanatomyai
+    - https://www.linkedin.com/company/datanatomy
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-titles-from-headings
+  - jekyll-default-layout
+
+relative_links:
+  enabled: true
+
+exclude:
+  - requirements.txt
+  - "**/__pycache__"
+  - "**/data/*.parquet"

@@ -21,6 +21,8 @@
 
 # Datanatomy
 
+**Website: [dayanebrar0x.github.io/data-anatomy.ai](https://dayanebrar0x.github.io/data-anatomy.ai/)**
+
 The code behind every Datanatomy video. Each lesson is a short, real program you can run in a few seconds,
 paired with a video that walks through it line by line while an animation shows what each line does.
 
@@ -46,7 +48,7 @@ the numbers these files print.
 Build a real data pipeline in three Python files: fetch paginated JSON from an API, clean it with pandas,
 write Parquet, and query it with DuckDB. 19.0 KB of JSON becomes 5.6 KB of Parquet.
 
-Watch: [YouTube](https://www.youtube.com/@datanatomyai) · [TikTok](https://www.tiktok.com/@datanatomy.ai) · [Instagram](https://www.instagram.com/datanatomy.ai)
+Watch: [YouTube](https://www.youtube.com/@datanatomyai) · [TikTok](https://www.tiktok.com/@datanatomy.ai) · [Instagram](https://www.instagram.com/datanatomy.ai)<br>
 Code: [`data-engineering/build-lab-01-api-to-parquet`](data-engineering/build-lab-01-api-to-parquet)
 
 <br clear="left">
@@ -100,6 +102,12 @@ Lessons are grouped by domain. The numbers match the episode numbers in the vide
 
 New to this? Start with the [learning path](docs/learning-path.md).
 
+## Coming next
+
+25 topics are lined up, from Simpson's paradox and tokenization to Terraform state and Kubernetes. Each one has a
+page that already explains the idea, and each becomes a video and runnable code here.
+[See all topics](topics/README.md), or [suggest one](https://github.com/DayanEbrar0X/data-anatomy.ai/issues/new?title=Topic+idea%3A+).
+
 ## Gallery
 
 Every lesson, moving. Click one to open its code and walkthrough.
@@ -152,6 +160,7 @@ data-anatomy.ai/
 ├── backend/                     APIs, databases, services
 ├── cloud/                       infrastructure as code, containers, AWS
 ├── build-projects/              big, end-to-end projects
+├── topics/                      what's coming next, one page per topic
 ├── docs/                        learning path, setup, glossary
 ├── assets/                      banner, logo, GIFs
 └── requirements.txt

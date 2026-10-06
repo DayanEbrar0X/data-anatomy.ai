@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="{{ site.lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% seo %}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Instrument+Serif:ital@1&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+  <link rel="icon" href="{{ '/assets/logo.png' | relative_url }}">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <img src="{{ '/assets/logo.png' | relative_url }}" alt="" width="28" height="28">
+      <span>Dat<em>anatomy</em></span>
+    </a>
+    <nav>
+      <a href="{{ '/' | relative_url }}#lessons">Lessons</a>
+      <a href="{{ '/topics/' | relative_url }}">Topics</a>
+      <a href="{{ '/docs/learning-path.html' | relative_url }}">Learning path</a>
+      <a href="{{ site.repo_url }}">GitHub</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    {% if page.name == "README.md" and page.dir != "/" %}
+    <a class="code-link" href="{{ site.repo_url }}/tree/main{{ page.dir }}">View code on GitHub</a>
+    {% elsif page.dir != "/" %}
+    <a class="code-link" href="{{ site.repo_url }}/blob/main/{{ page.path }}">View on GitHub</a>
+    {% endif %}
+    {{ content }}
+  </main>
+
+  <footer class="foot">
+    <p>
+      <a href="https://www.youtube.com/@datanatomyai">YouTube</a> ·
+      <a href="https://www.tiktok.com/@datanatomy.ai">TikTok</a> ·
+      <a href="https://www.instagram.com/datanatomy.ai">Instagram</a> ·
+      <a href="https://x.com/datanatomyai">X</a> ·
+      <a href="https://www.linkedin.com/company/datanatomy">LinkedIn</a> ·
+      <a href="https://www.threads.net/@datanatomy.ai">Threads</a>
+    </p>
+    <p class="muted">Code from every Datanatomy video. MIT licensed.</p>
+  </footer>
+</body>
+</html>
