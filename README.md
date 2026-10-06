@@ -165,8 +165,8 @@ pip install -r requirements.txt
 python3 ai-engineering/03-ai-agent-loop/src/agent.py    # run any lesson
 ```
 
-Lessons 03 to 07 use only the Python standard library. Lessons 00 to 02 need NumPy, and Build Lab 01 needs
-pandas, PyArrow and DuckDB. More detail in [docs/setup.md](docs/setup.md).
+Lessons 03 to 07 use only the Python standard library. The others use NumPy, pandas, scikit-learn, Polars,
+PySpark or DuckDB, and Build Lab 02 also needs Tesseract for OCR. More detail in [docs/setup.md](docs/setup.md).
 
 ## How the repo is organized
 

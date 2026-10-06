@@ -23,7 +23,16 @@ The lessons build on each other. If you are new, go in this order.
 
 Lesson 07 comes right after 01 on purpose: it repeats lesson 00 with no NumPy, so you see every step.
 
-### Part 2: How AI systems are built
+### Part 2: Machine learning in practice
+
+| # | Lesson | You will understand |
+|---|--------|---------------------|
+| 08 | [Decision trees](../machine-learning/08-decision-trees) | How a model picks its questions, and why you can read its decisions. |
+| 09 | [A neural network from scratch](../machine-learning/09-neural-network-from-scratch) | Layers, a non-linearity and backpropagation, on the XOR puzzle. |
+| 10 | [Overfitting](../machine-learning/10-overfitting) | Why a perfect training score is a warning, and how validation catches it. |
+| 11 | [Choosing a model](../machine-learning/11-choosing-a-model) | How teams pick an algorithm: data first, goal second, model last. |
+
+### Part 3: How AI systems are built
 
 | # | Lesson | You will understand |
 |---|--------|---------------------|
@@ -32,6 +41,14 @@ Lesson 07 comes right after 01 on purpose: it repeats lesson 00 with no NumPy, s
 | 04 | [Ontologies](../methodologies/04-ontology) | How an agent connects facts across systems. |
 | 05 | [Evals and loop engineering](../methodologies/05-evals-loop-engineering) | How to improve an AI system with measurements instead of guesses. |
 
+## Data engineering, in order
+
+| # | Lesson | You will understand |
+|---|--------|---------------------|
+| 12 | [ETL vs ELT](../data-engineering/12-etl-vs-elt) | Where the transform runs, and what each choice keeps. |
+| 13 | [PySpark](../data-engineering/13-pyspark) | Partitions, lazy plans and shuffles: how Spark handles data too big for one machine. |
+| 14 | [Polars](../data-engineering/14-polars) | How a lazy query reads only the columns and row groups it needs. |
+
 ## Build Lab
 
 Build Lab episodes are projects. Each one builds a small, real piece of software across several parts.
@@ -39,6 +56,7 @@ Build Lab episodes are projects. Each one builds a small, real piece of software
 | Project | Parts |
 |---------|-------|
 | [01 · API to Parquet](../data-engineering/build-lab-01-api-to-parquet) | Part 1: fetch, clean, write Parquet, query with DuckDB |
+| [02 · Documents to data](../data-engineering/build-lab-02-documents-to-data) | Part 1: OCR invoice images into JSON, Parquet and SQL. Part 2: embeddings in LanceDB and retrieval for RAG |
 
 ## What you need to know first
 
