@@ -45,6 +45,18 @@ What gets installed:
 
 Lessons 03 to 07 use only the Python standard library.
 
+### System tools for two lessons
+
+Two lessons need a program outside Python:
+
+| Tool | Needed by | Install |
+|------|-----------|---------|
+| Java 17 or 21 | 13 · PySpark | macOS: `brew install openjdk@17`. Linux: your package manager's OpenJDK. Windows: an OpenJDK installer such as Temurin. |
+| Tesseract OCR | Build Lab 02 | macOS: `brew install tesseract`. Ubuntu: `sudo apt install tesseract-ocr`. Windows: the installer from the Tesseract project. |
+
+Check them with `java -version` and `tesseract --version`. Build Lab 02 also downloads a small embedding model
+(about 64 MB) the first time it runs.
+
 ## 4. Run a lesson
 
 The code from each video is in the lesson's `src/` folder, and the short version (if there is one) is in `short/`:
