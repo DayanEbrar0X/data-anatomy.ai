@@ -66,6 +66,7 @@ Lessons are grouped by domain. The numbers match the episode numbers in the vide
 | [Exploratory data analysis](exploratory-data-analysis) | coming soon |
 | [Software engineering](software-engineering) | coming soon |
 | [Backend](backend) | coming soon |
+| [Cloud](cloud) | coming soon: infrastructure as code (Terraform, Terragrunt), containers (Docker, Kubernetes), AWS |
 | [Build Projects](build-projects) | coming soon: big, end-to-end projects |
 
 ### [Machine learning](machine-learning)
@@ -149,6 +150,7 @@ data-anatomy.ai/
 ├── exploratory-data-analysis/   getting to know a dataset
 ├── software-engineering/        code that lasts
 ├── backend/                     APIs, databases, services
+├── cloud/                       infrastructure as code, containers, AWS
 ├── build-projects/              big, end-to-end projects
 ├── docs/                        learning path, setup, glossary
 ├── assets/                      banner, logo, GIFs
