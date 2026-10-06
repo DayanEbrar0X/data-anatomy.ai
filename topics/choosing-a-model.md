@@ -1,6 +1,6 @@
 # How to choose an ML algorithm in production
 
-<img src="https://img.shields.io/badge/Machine_learning-7C3AED?style=flat-square" alt="Machine learning"> <img src="https://img.shields.io/badge/status-in_production-7C3AED?style=flat-square" alt="in production">
+<img src="https://img.shields.io/badge/Machine_learning-7C3AED?style=flat-square" alt="Machine learning"> <img src="https://img.shields.io/badge/status-lesson_ready-047857?style=flat-square" alt="lesson ready">
 
 > There is no best algorithm. Here's how teams actually pick one.
 
@@ -29,7 +29,7 @@ Only then do they compare a few candidates fairly against a simple baseline, and
 - **Long form:** A path from data to decision: EDA, goal, constraints, baseline, candidates, choice, with real scores growing in as bars.
 - **Short:** No best algorithm. Just the right one for your data and goal.
 
-When it's published, the code will live in [`machine-learning/`](../machine-learning) and this page will link to it.
+The lesson is ready: code and a line-by-line walkthrough in [`machine-learning/11-choosing-a-model/`](../machine-learning/11-choosing-a-model).
 
 ---
 [All topics](README.md) · [Suggest a topic](https://github.com/DayanEbrar0X/data-anatomy.ai/issues/new?title=Topic+idea%3A+)
