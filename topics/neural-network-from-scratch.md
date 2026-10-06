@@ -1,6 +1,6 @@
 # A neural network from scratch
 
-<img src="https://img.shields.io/badge/Machine_learning-7C3AED?style=flat-square" alt="Machine learning"> <img src="https://img.shields.io/badge/status-in_production-7C3AED?style=flat-square" alt="in production">
+<img src="https://img.shields.io/badge/Machine_learning-7C3AED?style=flat-square" alt="Machine learning"> <img src="https://img.shields.io/badge/status-lesson_ready-047857?style=flat-square" alt="lesson ready">
 
 > One straight line can't solve this four-point puzzle. Two layers can.
 
@@ -28,7 +28,7 @@ Add one hidden layer and the problem falls apart. The hidden layer bends the spa
 - **Long form:** The four XOR points on a grid, a single line failing to split them, then the hidden layer warping the space until a line works. Code typed below: forward, backward, update.
 - **Short:** The line fails, the second layer bends the space, 100%.
 
-When it's published, the code will live in [`machine-learning/`](../machine-learning) and this page will link to it.
+The lesson is ready: code and a line-by-line walkthrough in [`machine-learning/09-neural-network-from-scratch/`](../machine-learning/09-neural-network-from-scratch).
 
 ---
 [All topics](README.md) · [Suggest a topic](https://github.com/DayanEbrar0X/data-anatomy.ai/issues/new?title=Topic+idea%3A+)
