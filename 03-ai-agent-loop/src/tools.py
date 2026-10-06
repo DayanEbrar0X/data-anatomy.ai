@@ -1,5 +1,9 @@
 # Two tools the agent can call. In a company these would be real APIs.
-WAREHOUSE = {"Q3 revenue": 4_200_000, "Q2 revenue": 3_900_000}
+import json
+from pathlib import Path
+
+DATA = Path(__file__).resolve().parents[1] / "data" / "warehouse.json"
+WAREHOUSE = json.loads(DATA.read_text())
 
 
 def search(query):

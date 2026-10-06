@@ -23,7 +23,7 @@ RAG is an open-book exam:
 ## Run it
 
 ```bash
-python3 rag.py
+python3 src/rag.py
 ```
 
 ```
@@ -39,12 +39,28 @@ New hires get 15 vacation days a year
 source: hr-1 0.91
 ```
 
+## Files
+
+```
+06-rag/
+├── data/
+│   └── handbook.json     8 chunks of HR, IT and finance policy
+├── src/
+│   ├── rag.py            the code from the video
+│   └── docs.py           loads the chunks, builds the vocabulary
+├── short/
+│   ├── rag.py            the version from the short
+│   └── docs.py           same, plus embed() and cosine()
+└── tests/
+    └── test_rag.py
+```
+
+`handbook.json` holds the chunks, and `docs.py` builds the vocabulary from them: every word in the docs except filler
+words like "the" and "in". Run the tests with `pytest` from this folder. They check the code still prints exactly what the video shows.
+
 ## The code
 
-`docs.py` holds 8 short chunks (HR, IT and finance policies) and the vocabulary: every word in the docs except
-filler words like "the" and "in".
-
-`rag.py`, line by line:
+`src/rag.py`, line by line:
 
 | Line | Code | What it does |
 |------|------|--------------|
@@ -74,8 +90,8 @@ access rules, for example never retrieving finance documents for people outside 
 ## Try this
 
 1. Ask "Do I need approval for sick days?" Which chunk wins?
-2. Add a chunk: `"hr-5": "Interns get 10 vacation days"`. Rerun the original question. What changes?
-3. Remove `"get"` from the vocabulary (add it to `STOP`). Does `it-1` still come second?
+2. Add a chunk to `handbook.json`: `"hr-5": "Interns get 10 vacation days"`. Rerun the original question. What changes?
+3. Remove `"get"` from the vocabulary (add it to `STOP` in `docs.py`). Does `it-1` still come second?
 4. Send `prompt` to a real LLM and compare its answer with and without the context.
 
 ---

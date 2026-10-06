@@ -24,7 +24,7 @@ Guess, check, nudge. The same loop trains every neural network; they just have f
 ## Run it
 
 ```bash
-python3 delivery.py
+python3 src/delivery.py
 ```
 
 ```
@@ -34,6 +34,21 @@ mins = 2.98 * km + 4.21
 
 The short version (`short/learn.py`, 9 lines) nudges after every single trip instead of after each full pass, and
 prints `12 km: 40.1 min`.
+
+## Files
+
+```
+07-linear-regression-no-libraries/
+├── src/
+│   └── delivery.py       the 17 lines from the video
+├── short/
+│   └── learn.py          the 9-line version from the short
+└── tests/
+    └── test_linear_regression.py
+```
+
+The ten trips are written straight into the code on purpose: the point of this lesson is that nothing is hidden,
+not even a file load. Run the tests with `pytest` from this folder. They check the code still prints exactly what the video shows.
 
 ## The code
 

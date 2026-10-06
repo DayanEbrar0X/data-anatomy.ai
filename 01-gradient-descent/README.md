@@ -28,12 +28,24 @@ Neural networks with billions of weights train with this same rule.
 ## Run it
 
 ```bash
-python3 descent.py
+python3 src/descent.py
 ```
 
 ```
 20.8 -> 0.0001
 ```
+
+## Files
+
+```
+01-gradient-descent/
+├── src/
+│   └── descent.py        the 8 lines from the video
+└── tests/
+    └── test_gradient_descent.py
+```
+
+There is no data folder: the "hill" is a formula written in the code. Run the tests with `pytest` from this folder. They check the code still prints exactly what the video shows.
 
 ## The code
 

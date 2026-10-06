@@ -1,4 +1,5 @@
-# Builds the recorded API responses used by the episode (3 pages, 2 duplicate orders across pages).
+# Makes the recorded API responses in api/: 120 orders over 3 pages.
+# The last order of pages 1 and 2 shows up again on the next page, like real APIs do.
 import json
 import random
 from pathlib import Path
@@ -17,7 +18,8 @@ for i in range(1, 121):
 pages = [orders[0:40], orders[40:80], orders[80:120]]
 pages[1].append(dict(orders[39]))  # the API repeats an order at a page boundary
 pages[2].append(dict(orders[79]))
-Path("api").mkdir(exist_ok=True)
+API = Path(__file__).resolve().parents[1] / "api"
+API.mkdir(exist_ok=True)
 for n, rows in enumerate(pages, 1):
     nxt = n + 1 if n < 3 else None
-    Path(f"api/orders_p{n}.json").write_text(json.dumps({"data": rows, "next_page": nxt}, indent=2))
+    (API / f"orders_p{n}.json").write_text(json.dumps({"data": rows, "next_page": nxt}, indent=2))

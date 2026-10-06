@@ -23,7 +23,7 @@ separate tables for "Acme" finds the supplier row and stops there.
 ## Run it
 
 ```bash
-python3 ontology.py
+python3 src/ontology.py
 ```
 
 ```
@@ -35,12 +35,30 @@ affected: ['Kestrel', 'Orbis']
 
 The short version (`short/ontology.py`, 7 lines) prints only the last line.
 
-## The code
+## Files
 
-`facts.py` holds 10 triples, the kind of rows you'd pull from an ERP (purchasing), a PLM (product data) and a CRM
+```
+04-ontology/
+├── data/
+│   └── facts.csv         10 facts: subject, relation, object
+├── src/
+│   ├── ontology.py       the code from the video
+│   └── facts.py          loads facts.csv
+├── short/
+│   ├── ontology.py       the 7-line version from the short
+│   └── facts.py
+└── tests/
+    └── test_ontology.py
+```
+
+The long and short versions read the same `data/facts.csv`. Run the tests with `pytest` from this folder. They check the code still prints exactly what the video shows.
+
+`facts.csv` holds 10 triples, the kind of rows you'd pull from an ERP (purchasing), a PLM (product data) and a CRM
 (orders).
 
-`ontology.py`, line by line:
+## The code
+
+`src/ontology.py`, line by line:
 
 | Line | Code | What it does |
 |------|------|--------------|

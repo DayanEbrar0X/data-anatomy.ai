@@ -68,25 +68,40 @@ cd model-anatomy
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 
-cd 03-ai-agent-loop
-python3 agent.py
+python3 03-ai-agent-loop/src/agent.py    # run any lesson
+pytest                                  # check every lesson still matches its video
 ```
 
 Lessons 03, 04, 05, 06 and 07 use only the Python standard library. Lessons 00 to 02 need NumPy, and the Build Lab
 project needs pandas, PyArrow and DuckDB. More detail in [docs/setup.md](docs/setup.md).
 
-## How each lesson is organized
+## How the repo is organized
 
 ```
-03-ai-agent-loop/
-├── README.md     the idea, how to run it, a line-by-line walkthrough, and things to try
-├── agent.py      the file from the video (same lines, same line numbers)
-├── model.py      helpers the video imports
-└── tools.py
+model-anatomy/
+├── 00-machine-learning/ ... 07-linear-regression-no-libraries/    Model Anatomy lessons
+├── build-lab/                                                      Build Lab projects
+├── docs/                                                           learning path, setup, glossary
+├── assets/                                                         banner, logo, thumbnails
+├── .github/workflows/tests.yml                                     runs every test on each push
+└── requirements.txt
 ```
 
-Lessons with a 30-second version keep that code in a `short/` folder. The code matches the video exactly so you can
-pause on any frame and find the same line here.
+Every lesson uses the same layout, the one real Python projects use:
+
+```
+04-ontology/
+├── README.md         the idea, how to run it, a line-by-line walkthrough, things to try
+├── data/             the data, as plain CSV or JSON files
+├── scripts/          one-off scripts that generated the data (when there are any)
+├── src/              the code from the video, plus the helpers it imports
+├── short/            the code from the 30-second version (when there is one)
+└── tests/            checks that the code still prints what the video shows
+```
+
+Keeping data, code and tests apart is a habit worth copying. You can change the data without touching the logic,
+and the tests tell you right away if an edit broke something. The file from the video is always in `src/`, line
+for line, so you can pause on any frame and find the same line here.
 
 ## Docs
 

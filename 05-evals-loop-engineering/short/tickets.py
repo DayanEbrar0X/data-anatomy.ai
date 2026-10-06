@@ -1,17 +1,11 @@
 # The eval set, the system under test (a stand-in for an LLM prompt),
 # and three versions of its rules, each one fix after reading failures.
-CASES = [
-    ("refund my last order", "billing"),
-    ("app crashes on start", "tech"),
-    ("reset my password", "account"),
-    ("invoice shows wrong total", "billing"),
-    ("error 500 at checkout", "tech"),
-    ("charged twice this month", "billing"),
-    ("can't log in", "account"),
-    ("upload crashes midway", "tech"),
-    ("need a copy of my invoice", "billing"),
-    ("page shows an error", "tech"),
-]
+import csv
+from pathlib import Path
+
+DATA = Path(__file__).resolve().parents[1] / "data" / "cases.csv"
+with DATA.open() as f:
+    CASES = [tuple(row) for row in csv.reader(f)][1:]
 
 
 def route(text, rules):

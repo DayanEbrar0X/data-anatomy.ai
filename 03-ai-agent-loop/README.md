@@ -23,7 +23,7 @@ The loop stops when the model decides it can answer, or when it hits a step limi
 ## Run it
 
 ```bash
-python3 agent.py
+python3 src/agent.py
 ```
 
 ```
@@ -32,13 +32,27 @@ python3 agent.py
 answer: $630,000
 ```
 
-## The files
+## Files
 
-- `agent.py`: the loop (the file in the video).
-- `tools.py`: two tools. `search` looks a number up in a tiny "warehouse", `calculator` multiplies.
-- `model.py`: `think()`, a **stand-in for the LLM**. It follows simple rules so the example runs offline and gives
+```
+03-ai-agent-loop/
+├── data/
+│   └── warehouse.json    the numbers the search tool can find
+├── src/
+│   ├── agent.py          the loop from the video
+│   ├── model.py          think(): stand-in for the LLM
+│   └── tools.py          search and calculator
+└── tests/
+    └── test_agent_loop.py
+```
+
+- `agent.py` is the loop, and the file you see in the video.
+- `tools.py` has two tools. `search` looks a number up in `warehouse.json`, and `calculator` multiplies.
+- `model.py` has `think()`, a **stand-in for the LLM**. It follows simple rules so the example runs offline and gives
   the same answer every time. In a real agent, `think()` is one API call to a model that returns the same
   `(action, argument)` shape.
+
+Run the tests with `pytest` from this folder. They check the code still prints exactly what the video shows.
 
 ## The code
 

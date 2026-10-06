@@ -20,11 +20,18 @@ orders_pipeline/
 │   └── orders_p3.json
 ├── data/
 │   └── orders.parquet   created when you run the pipeline
+├── scripts/
+│   └── make_pages.py    made the recorded API pages
+├── tests/
+│   └── test_pipeline.py checks each step and the final output
 ├── fetch.py             1. fetch every page from the API
 ├── transform.py         2. clean the rows with pandas
-├── main.py              3. write Parquet and query it with DuckDB
-└── make_pages.py        regenerates the recorded API pages
+└── main.py              3. write Parquet and query it with DuckDB
 ```
+
+The three pipeline files sit at the top, exactly as in the video. Supporting files go in their own folders:
+`scripts/` for one-off tools, `tests/` for checks. `data/` holds output only, so it's safe to delete and rebuild.
+Run the tests with `pytest` from `orders_pipeline/`.
 
 ## Run it
 
@@ -46,7 +53,7 @@ To keep every run identical, the API responses are recorded in `api/`. Each page
 `next_page` number, the way many real APIs paginate. In production, line 7 of `fetch.py` becomes a real request,
 for example `requests.get(URL, params={"page": page}).json()`.
 
-`make_pages.py` created those pages: 120 orders, where the last order of pages 1 and 2 shows up again on the next
+`scripts/make_pages.py` created those pages: 120 orders, where the last order of pages 1 and 2 shows up again on the next
 page. Real APIs do this when new records arrive while you are paging, which is why `transform.py` removes
 duplicates.
 

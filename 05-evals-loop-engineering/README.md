@@ -24,7 +24,7 @@ Teachers grading practice tests work the same way. The eval set is the practice 
 ## Run it
 
 ```bash
-python3 evals.py
+python3 src/evals.py
 ```
 
 ```
@@ -35,11 +35,28 @@ v3 pass rate 100%
 
 The short version (`short/loop.py` with `short/tickets.py`) prints `60% pass`, `80% pass`, `100% pass`.
 
+## Files
+
+```
+05-evals-loop-engineering/
+├── data/
+│   └── cases.csv         the eval set: 10 tickets and the right team
+├── src/
+│   ├── evals.py          the code from the video
+│   └── cases.py          loads cases.csv
+├── short/
+│   ├── loop.py           the 7-line version from the short
+│   └── tickets.py        cases, router and three rule versions
+└── tests/
+    └── test_evals.py
+```
+
+The eval set is data, not code, so anyone (including people who don't write Python) can add a ticket to
+`cases.csv`. Run the tests with `pytest` from this folder. They check the code still prints exactly what the video shows.
+
 ## The code
 
-`cases.py` is the eval set: 10 tickets, each with the team that should get it.
-
-`evals.py`, line by line:
+`src/evals.py`, line by line:
 
 | Line | Code | What it does |
 |------|------|--------------|

@@ -22,19 +22,36 @@ The `k` is how many groups you ask for. Here, 3.
 ## Run it
 
 ```bash
-python3 kmeans.py
+python3 src/kmeans.py
 ```
 
 ```
 group sizes: 100 100 100
 ```
 
+## Files
+
+```
+02-k-means/
+├── data/
+│   └── shops.csv         300 shop locations (x, y), no labels
+├── scripts/
+│   └── make_shops.py     made shops.csv
+├── src/
+│   ├── kmeans.py         the 8 lines from the video
+│   └── shops.py          loads shops.csv into X
+└── tests/
+    └── test_k_means.py
+```
+
+Run the tests with `pytest` from this folder. They check the code still prints exactly what the video shows.
+
+`make_shops.py` made 300 points in three blobs (100 each) around three hidden centers. It doesn't save which blob a
+point came from, so the algorithm never sees it.
+
 ## The code
 
-`shops.py` makes 300 points in three blobs (100 each) around three hidden centers. The algorithm never sees which
-blob a point came from.
-
-`kmeans.py`, line by line:
+`src/kmeans.py`, line by line:
 
 | Line | Code | What it does |
 |------|------|--------------|
