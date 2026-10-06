@@ -1,6 +1,6 @@
 # ETL vs ELT
 
-<img src="https://img.shields.io/badge/Data_engineering-047857?style=flat-square" alt="Data engineering"> <img src="https://img.shields.io/badge/status-in_production-7C3AED?style=flat-square" alt="in production">
+<img src="https://img.shields.io/badge/Data_engineering-047857?style=flat-square" alt="Data engineering"> <img src="https://img.shields.io/badge/status-lesson_ready-047857?style=flat-square" alt="lesson ready">
 
 > Same three letters, different order, and it changes your whole data platform.
 
@@ -28,7 +28,7 @@ ELT took over as storage got cheap and warehouses got powerful: keeping the raw 
 - **Long form:** Two pipelines stacked, with the T block sliding to a new position and a PII column masked in one lane but not the other.
 - **Short:** Transform first, or load first. Here's when each wins.
 
-When it's published, the code will live in [`data-engineering/`](../data-engineering) and this page will link to it.
+The lesson is ready: code and a line-by-line walkthrough in [`data-engineering/12-etl-vs-elt/`](../data-engineering/12-etl-vs-elt).
 
 ---
 [All topics](README.md) · [Suggest a topic](https://github.com/DayanEbrar0X/data-anatomy.ai/issues/new?title=Topic+idea%3A+)
