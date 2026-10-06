@@ -1,6 +1,6 @@
 # Overfitting: why a perfect score is a red flag
 
-<img src="https://img.shields.io/badge/Machine_learning-7C3AED?style=flat-square" alt="Machine learning"> <img src="https://img.shields.io/badge/status-in_production-7C3AED?style=flat-square" alt="in production">
+<img src="https://img.shields.io/badge/Machine_learning-7C3AED?style=flat-square" alt="Machine learning"> <img src="https://img.shields.io/badge/status-lesson_ready-047857?style=flat-square" alt="lesson ready">
 
 > This model scored 100%. That's the problem.
 
@@ -28,7 +28,7 @@ The fix is to hold data back. The gap between training and validation error is t
 - **Long form:** Three curves over the same points: too simple, about right, and a wild one that hits every point. The validation error climbs as the curve gets more perfect.
 - **Short:** 100% on training, terrible on new data. Here's why.
 
-When it's published, the code will live in [`machine-learning/`](../machine-learning) and this page will link to it.
+The lesson is ready: code and a line-by-line walkthrough in [`machine-learning/10-overfitting/`](../machine-learning/10-overfitting).
 
 ---
 [All topics](README.md) · [Suggest a topic](https://github.com/DayanEbrar0X/data-anatomy.ai/issues/new?title=Topic+idea%3A+)
