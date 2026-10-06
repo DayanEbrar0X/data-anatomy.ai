@@ -37,7 +37,6 @@ What gets installed:
 | pandas | Build Lab | Tables |
 | pyarrow | Build Lab | Writing Parquet files |
 | duckdb | Build Lab | SQL on files, no database server |
-| pytest | every lesson | Running the tests |
 
 Lessons 03 to 07 use only the Python standard library.
 
@@ -52,16 +51,6 @@ python3 04-ontology/short/ontology.py
 
 Lessons find their own data files, so you can run them from any folder. The one exception is Build Lab: like the
 video, it reads `api/` and writes `data/` relative to where you run it, so `cd` into `orders_pipeline/` first.
-
-## 5. Run the tests
-
-```bash
-pytest
-```
-
-From the repository root this runs every lesson's tests. From inside a lesson folder it runs only that lesson's.
-Each test runs the code and checks it prints exactly what the video shows. After you change something, run the
-tests to see what you broke; when you change something on purpose, update the expected output in the test.
 
 ## Troubleshooting
 

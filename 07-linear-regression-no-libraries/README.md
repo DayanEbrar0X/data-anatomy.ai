@@ -43,14 +43,12 @@ prints `12 km: 40.1 min`.
 07-linear-regression-no-libraries/
 ├── src/
 │   └── delivery.py       the 17 lines from the video
-├── short/
-│   └── learn.py          the 9-line version from the short
-└── tests/
-    └── test_linear_regression.py
+└── short/
+    └── learn.py          the 9-line version from the short
 ```
 
 The ten trips are written straight into the code on purpose: the point of this lesson is that nothing is hidden,
-not even a file load. Run the tests with `pytest` from this folder. They check the code still prints exactly what the video shows.
+not even a file load.
 
 ## The code
 

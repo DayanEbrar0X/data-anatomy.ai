@@ -46,15 +46,13 @@ The short version (`short/loop.py` with `short/tickets.py`) prints `60% pass`, `
 ├── src/
 │   ├── evals.py          the code from the video
 │   └── cases.py          loads cases.csv
-├── short/
-│   ├── loop.py           the 7-line version from the short
-│   └── tickets.py        cases, router and three rule versions
-└── tests/
-    └── test_evals.py
+└── short/
+    ├── loop.py           the 7-line version from the short
+    └── tickets.py        cases, router and three rule versions
 ```
 
 The eval set is data, not code, so anyone (including people who don't write Python) can add a ticket to
-`cases.csv`. Run the tests with `pytest` from this folder. They check the code still prints exactly what the video shows.
+`cases.csv`.
 
 ## The code
 

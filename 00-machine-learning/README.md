@@ -36,15 +36,12 @@ price = 3.33 * size + 2.44
 │   └── houses.csv        40 houses: size and price
 ├── scripts/
 │   └── make_houses.py    made houses.csv (you don't need to run it)
-├── src/
-│   ├── learn.py          the 8 lines from the video
-│   └── houses.py         loads houses.csv into x and y
-└── tests/
-    └── test_machine_learning.py
+└── src/
+    ├── learn.py          the 8 lines from the video
+    └── houses.py         loads houses.csv into x and y
 ```
 
-Data, code and tests each get their own folder. That way you can swap in different data without touching the
-model, and the tests tell you if a change broke anything. Run the tests with `pytest` from this folder. They check the code still prints exactly what the video shows.
+Data and code each get their own folder, so you can swap in different data without touching the model.
 
 `make_houses.py` made the 40 examples. The prices follow `3 × size + 4` plus some random noise, the way real data
 is never perfectly on a line. It uses a fixed random seed, so running it again gives the same 40 houses.

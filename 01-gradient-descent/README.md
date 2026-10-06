@@ -41,13 +41,11 @@ python3 src/descent.py
 
 ```
 01-gradient-descent/
-├── src/
-│   └── descent.py        the 8 lines from the video
-└── tests/
-    └── test_gradient_descent.py
+└── src/
+    └── descent.py        the 8 lines from the video
 ```
 
-There is no data folder: the "hill" is a formula written in the code. Run the tests with `pytest` from this folder. They check the code still prints exactly what the video shows.
+There is no data folder: the "hill" is a formula written in the code.
 
 ## The code
 

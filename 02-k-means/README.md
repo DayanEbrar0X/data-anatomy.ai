@@ -39,14 +39,10 @@ group sizes: 100 100 100
 │   └── shops.csv         300 shop locations (x, y), no labels
 ├── scripts/
 │   └── make_shops.py     made shops.csv
-├── src/
-│   ├── kmeans.py         the 8 lines from the video
-│   └── shops.py          loads shops.csv into X
-└── tests/
-    └── test_k_means.py
+└── src/
+    ├── kmeans.py         the 8 lines from the video
+    └── shops.py          loads shops.csv into X
 ```
-
-Run the tests with `pytest` from this folder. They check the code still prints exactly what the video shows.
 
 `make_shops.py` made 300 points in three blobs (100 each) around three hidden centers. It doesn't save which blob a
 point came from, so the algorithm never sees it.

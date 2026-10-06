@@ -46,14 +46,12 @@ The short version (`short/ontology.py`, 7 lines) prints only the last line.
 ├── src/
 │   ├── ontology.py       the code from the video
 │   └── facts.py          loads facts.csv
-├── short/
-│   ├── ontology.py       the 7-line version from the short
-│   └── facts.py
-└── tests/
-    └── test_ontology.py
+└── short/
+    ├── ontology.py       the 7-line version from the short
+    └── facts.py
 ```
 
-The long and short versions read the same `data/facts.csv`. Run the tests with `pytest` from this folder. They check the code still prints exactly what the video shows.
+The long and short versions read the same `data/facts.csv`.
 
 `facts.csv` holds 10 triples, the kind of rows you'd pull from an ERP (purchasing), a PLM (product data) and a CRM
 (orders).

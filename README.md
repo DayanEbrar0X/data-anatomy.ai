@@ -108,7 +108,6 @@ python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 
 python3 03-ai-agent-loop/src/agent.py    # run any lesson
-pytest                                  # check every lesson still matches its video
 ```
 
 Lessons 03, 04, 05, 06 and 07 use only the Python standard library. Lessons 00 to 02 need NumPy, and the Build Lab
@@ -122,7 +121,6 @@ data-anatomy.ai/
 ├── build-lab/                                                      Build Lab projects
 ├── docs/                                                           learning path, setup, glossary
 ├── assets/                                                         banner, logo, GIFs
-├── .github/workflows/tests.yml                                     runs every test on each push
 └── requirements.txt
 ```
 
@@ -134,13 +132,11 @@ Every lesson uses the same layout, the one real Python projects use:
 ├── data/             the data, as plain CSV or JSON files
 ├── scripts/          one-off scripts that generated the data (when there are any)
 ├── src/              the code from the video, plus the helpers it imports
-├── short/            the code from the 30-second version (when there is one)
-└── tests/            checks that the code still prints what the video shows
+└── short/            the code from the 30-second version (when there is one)
 ```
 
-Keeping data, code and tests apart is a habit worth copying. You can change the data without touching the logic,
-and the tests tell you right away if an edit broke something. The file from the video is always in `src/`, line
-for line, so you can pause on any frame and find the same line here.
+Keeping data and code apart is a habit worth copying: you can change the data without touching the logic. The
+file from the video is always in `src/`, line for line, so you can pause on any frame and find the same line here.
 
 ## Docs
 

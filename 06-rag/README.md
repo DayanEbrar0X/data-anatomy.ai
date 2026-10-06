@@ -50,15 +50,13 @@ source: hr-1 0.91
 ├── src/
 │   ├── rag.py            the code from the video
 │   └── docs.py           loads the chunks, builds the vocabulary
-├── short/
-│   ├── rag.py            the version from the short
-│   └── docs.py           same, plus embed() and cosine()
-└── tests/
-    └── test_rag.py
+└── short/
+    ├── rag.py            the version from the short
+    └── docs.py           same, plus embed() and cosine()
 ```
 
 `handbook.json` holds the chunks, and `docs.py` builds the vocabulary from them: every word in the docs except filler
-words like "the" and "in". Run the tests with `pytest` from this folder. They check the code still prints exactly what the video shows.
+words like "the" and "in".
 
 ## The code
 

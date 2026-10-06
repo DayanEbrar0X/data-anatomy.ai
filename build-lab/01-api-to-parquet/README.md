@@ -24,16 +24,13 @@ orders_pipeline/
 │   └── orders.parquet   created when you run the pipeline
 ├── scripts/
 │   └── make_pages.py    made the recorded API pages
-├── tests/
-│   └── test_pipeline.py checks each step and the final output
 ├── fetch.py             1. fetch every page from the API
 ├── transform.py         2. clean the rows with pandas
 └── main.py              3. write Parquet and query it with DuckDB
 ```
 
 The three pipeline files sit at the top, exactly as in the video. Supporting files go in their own folders:
-`scripts/` for one-off tools, `tests/` for checks. `data/` holds output only, so it's safe to delete and rebuild.
-Run the tests with `pytest` from `orders_pipeline/`.
+`scripts/` for one-off tools. `data/` holds output only, so it's safe to delete and rebuild.
 
 ## Run it
 
