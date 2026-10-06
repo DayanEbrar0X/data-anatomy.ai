@@ -1,6 +1,6 @@
 # How a decision tree thinks
 
-<img src="https://img.shields.io/badge/Machine_learning-7C3AED?style=flat-square" alt="Machine learning"> <img src="https://img.shields.io/badge/status-planned-B45309?style=flat-square" alt="planned">
+<img src="https://img.shields.io/badge/Machine_learning-7C3AED?style=flat-square" alt="Machine learning"> <img src="https://img.shields.io/badge/status-in_production-7C3AED?style=flat-square" alt="in production">
 
 > This model plays 20 questions with your data, and you can read every answer.
 

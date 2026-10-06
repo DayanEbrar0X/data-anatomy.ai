@@ -13,9 +13,10 @@ Have an idea? [Suggest a topic](https://github.com/DayanEbrar0X/data-anatomy.ai/
 | [Gradient descent](../machine-learning/01-gradient-descent) | Watch the video and run the code | Published |
 | [K-means clustering](../machine-learning/02-k-means) | Watch the video and run the code | Published |
 | [Linear regression, no libraries](../machine-learning/07-linear-regression-no-libraries) | Watch the video and run the code | Published |
-| [A neural network from scratch](neural-network-from-scratch.md) | One straight line can't solve this four-point puzzle. Two layers can. | Planned |
-| [How a decision tree thinks](decision-trees.md) | This model plays 20 questions with your data, and you can read every answer. | Planned |
-| [Overfitting: why a perfect score is a red flag](overfitting.md) | This model scored 100%. That's the problem. | Planned |
+| [A neural network from scratch](neural-network-from-scratch.md) | One straight line can't solve this four-point puzzle. Two layers can. | In production |
+| [How a decision tree thinks](decision-trees.md) | This model plays 20 questions with your data, and you can read every answer. | In production |
+| [Overfitting: why a perfect score is a red flag](overfitting.md) | This model scored 100%. That's the problem. | In production |
+| [How to choose an ML algorithm in production](choosing-a-model.md) | There is no best algorithm. Here's how teams actually pick one. | In production |
 
 ## AI engineering
 
@@ -44,6 +45,10 @@ Have an idea? [Suggest a topic](https://github.com/DayanEbrar0X/data-anatomy.ai/
 | [API to Parquet](../data-engineering/build-lab-01-api-to-parquet) | Watch the video and run the code | Published |
 | [Incremental loads and change data capture](incremental-loads.md) | Your pipeline reloads 10 million rows to pick up 200 changes. | Planned |
 | [Idempotent pipelines](idempotent-pipelines.md) | Your job failed halfway, you reran it, and now revenue is doubled. | Planned |
+| [ETL vs ELT](etl-vs-elt.md) | Same three letters, different order, and it changes your whole data platform. | In production |
+| [PySpark: data too big for one machine](pyspark.md) | Your laptop chokes on a billion rows. Spark splits the job across a cluster. | In production |
+| [Polars: the fast DataFrame library](polars.md) | Same question, same data. One library reads the whole file, the other reads only what it needs. | In production |
+| [Documents to data: OCR, Parquet and a vector database](documents-to-data.md) | A folder of scanned invoices becomes a table you can query and a knowledge base an AI can search. | In production |
 
 ## Data architecture
 

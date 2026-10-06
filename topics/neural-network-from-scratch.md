@@ -1,6 +1,6 @@
 # A neural network from scratch
 
-<img src="https://img.shields.io/badge/Machine_learning-7C3AED?style=flat-square" alt="Machine learning"> <img src="https://img.shields.io/badge/status-planned-B45309?style=flat-square" alt="planned">
+<img src="https://img.shields.io/badge/Machine_learning-7C3AED?style=flat-square" alt="Machine learning"> <img src="https://img.shields.io/badge/status-in_production-7C3AED?style=flat-square" alt="in production">
 
 > One straight line can't solve this four-point puzzle. Two layers can.
 

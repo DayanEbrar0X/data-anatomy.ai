@@ -104,7 +104,7 @@ New to this? Start with the [learning path](docs/learning-path.md).
 
 ## Coming next
 
-25 topics are lined up, from Simpson's paradox and tokenization to Terraform state and Kubernetes. Each one has a
+30 topics are lined up, from PySpark, Polars and OCR pipelines to Terraform state and Kubernetes. Each one has a
 page that already explains the idea, and each becomes a video and runnable code here.
 [See all topics](topics/README.md), or [suggest one](https://github.com/DayanEbrar0X/data-anatomy.ai/issues/new?title=Topic+idea%3A+).
 
