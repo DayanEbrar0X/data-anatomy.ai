@@ -1,0 +1,3 @@
+docs_pipeline/data/docs.json
+docs_pipeline/data/docs.parquet
+docs_pipeline/data/lancedb/
