@@ -41,6 +41,14 @@ Lesson 07 comes right after 01 on purpose: it repeats lesson 00 with no NumPy, s
 | 04 | [Ontologies](../methodologies/04-ontology) | How an agent connects facts across systems. |
 | 05 | [Evals and loop engineering](../methodologies/05-evals-loop-engineering) | How to improve an AI system with measurements instead of guesses. |
 
+## Data engineering, in order
+
+| # | Lesson | You will understand |
+|---|--------|---------------------|
+| 12 | [ETL vs ELT](../data-engineering/12-etl-vs-elt) | Where the transform runs, and what each choice keeps. |
+| 13 | [PySpark](../data-engineering/13-pyspark) | Partitions, lazy plans and shuffles: how Spark handles data too big for one machine. |
+| 14 | [Polars](../data-engineering/14-polars) | How a lazy query reads only the columns and row groups it needs. |
+
 ## Build Lab
 
 Build Lab episodes are projects. Each one builds a small, real piece of software across several parts.
