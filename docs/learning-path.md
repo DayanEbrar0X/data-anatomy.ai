@@ -23,7 +23,16 @@ The lessons build on each other. If you are new, go in this order.
 
 Lesson 07 comes right after 01 on purpose: it repeats lesson 00 with no NumPy, so you see every step.
 
-### Part 2: How AI systems are built
+### Part 2: Machine learning in practice
+
+| # | Lesson | You will understand |
+|---|--------|---------------------|
+| 08 | [Decision trees](../machine-learning/08-decision-trees) | How a model picks its questions, and why you can read its decisions. |
+| 09 | [A neural network from scratch](../machine-learning/09-neural-network-from-scratch) | Layers, a non-linearity and backpropagation, on the XOR puzzle. |
+| 10 | [Overfitting](../machine-learning/10-overfitting) | Why a perfect training score is a warning, and how validation catches it. |
+| 11 | [Choosing a model](../machine-learning/11-choosing-a-model) | How teams pick an algorithm: data first, goal second, model last. |
+
+### Part 3: How AI systems are built
 
 | # | Lesson | You will understand |
 |---|--------|---------------------|
