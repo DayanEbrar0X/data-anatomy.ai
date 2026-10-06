@@ -13,8 +13,8 @@ If you don't have it, install it from [python.org](https://www.python.org/downlo
 ## 2. Get the code
 
 ```bash
-git clone https://github.com/<your-username>/model-anatomy.git
-cd model-anatomy
+git clone https://github.com/DayanEbrar0X/data-anatomy.ai.git
+cd data-anatomy.ai
 ```
 
 No Git? Click **Code → Download ZIP** on the repository page and unzip it.

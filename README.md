@@ -63,8 +63,8 @@ New to this? Start with the [learning path](docs/learning-path.md).
 You need Python 3.10 or newer.
 
 ```bash
-git clone https://github.com/<your-username>/model-anatomy.git
-cd model-anatomy
+git clone https://github.com/DayanEbrar0X/data-anatomy.ai.git
+cd data-anatomy.ai
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 
