@@ -15,7 +15,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/python-3.10%2B-2563EB?style=flat-square&logo=python&logoColor=white" alt="Python 3.10+">
   <img src="https://img.shields.io/badge/lessons-15-7C3AED?style=flat-square" alt="15 lessons">
-  <img src="https://img.shields.io/badge/build_lab-1_project-B45309?style=flat-square" alt="1 Build Lab project">
+  <img src="https://img.shields.io/badge/build_lab-2_projects-B45309?style=flat-square" alt="2 Build Lab projects">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-047857?style=flat-square" alt="MIT license"></a>
 </p>
 
@@ -63,7 +63,7 @@ Lessons are grouped by domain. The numbers match the episode numbers in the vide
 | [Machine learning](machine-learning) | [What is machine learning](machine-learning/00-what-is-machine-learning), [Gradient descent](machine-learning/01-gradient-descent), [Linear regression, no libraries](machine-learning/07-linear-regression-no-libraries), [K-means clustering](machine-learning/02-k-means), [Decision trees](machine-learning/08-decision-trees), [A neural network from scratch](machine-learning/09-neural-network-from-scratch), [Overfitting](machine-learning/10-overfitting), [Choosing a model](machine-learning/11-choosing-a-model) |
 | [AI engineering](ai-engineering) | [The AI agent loop](ai-engineering/03-ai-agent-loop), [RAG from scratch](ai-engineering/06-rag) |
 | [Methodologies](methodologies) | [Ontologies for AI agents](methodologies/04-ontology), [Evals and loop engineering](methodologies/05-evals-loop-engineering) |
-| [Data engineering](data-engineering) | [API to Parquet](data-engineering/build-lab-01-api-to-parquet), [ETL vs ELT](data-engineering/12-etl-vs-elt), [PySpark](data-engineering/13-pyspark), [Polars](data-engineering/14-polars) |
+| [Data engineering](data-engineering) | [API to Parquet](data-engineering/build-lab-01-api-to-parquet), [ETL vs ELT](data-engineering/12-etl-vs-elt), [PySpark](data-engineering/13-pyspark), [Polars](data-engineering/14-polars), [Documents to data](data-engineering/build-lab-02-documents-to-data) |
 | [Data architecture](data-architecture) | coming soon |
 | [Exploratory data analysis](exploratory-data-analysis) | coming soon |
 | [Software engineering](software-engineering) | coming soon |
@@ -106,6 +106,7 @@ Lessons are grouped by domain. The numbers match the episode numbers in the vide
 | 13 | [PySpark](data-engineering/13-pyspark) | Partitions, lazy plans and shuffles: how Spark scales | 108s |
 | 14 | [Polars](data-engineering/14-polars) | Lazy queries that read only the columns and row groups they need | 118s |
 | BL01 | [Build Lab 01 · API to Parquet](data-engineering/build-lab-01-api-to-parquet) | A three-file data pipeline: API pages to a clean, typed, queryable Parquet file | 99s |
+| BL02 | [Build Lab 02 · Documents to data](data-engineering/build-lab-02-documents-to-data) | Invoice images to OCR, JSON, Parquet and SQL, then embeddings in LanceDB for RAG | 140s + 143s |
 
 New to this? Start with the [learning path](docs/learning-path.md).
 
@@ -147,6 +148,7 @@ Every lesson, moving. Click one to open its code and walkthrough.
   </tr>
   <tr>
     <td align="center" width="33%"><a href="data-engineering/14-polars"><img src="assets/gifs/14-polars.gif" width="220" alt="14 · Polars"></a><br><b><a href="data-engineering/14-polars">14 · Polars</a></b></td>
+    <td align="center" width="33%"><a href="data-engineering/build-lab-02-documents-to-data"><img src="assets/gifs/build-lab-02-documents-to-data.gif" width="220" alt="BL02 · Documents to data"></a><br><b><a href="data-engineering/build-lab-02-documents-to-data">Build Lab 02 · Documents to data</a></b></td>
   </tr>
 </table>
 

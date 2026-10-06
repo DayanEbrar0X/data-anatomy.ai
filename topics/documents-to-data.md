@@ -1,6 +1,6 @@
 # Documents to data: OCR, Parquet and a vector database
 
-<img src="https://img.shields.io/badge/Data_engineering-047857?style=flat-square" alt="Data engineering"> <img src="https://img.shields.io/badge/status-in_production-7C3AED?style=flat-square" alt="in production">
+<img src="https://img.shields.io/badge/Data_engineering-047857?style=flat-square" alt="Data engineering"> <img src="https://img.shields.io/badge/status-lesson_ready-047857?style=flat-square" alt="lesson ready">
 
 > A folder of scanned invoices becomes a table you can query and a knowledge base an AI can search.
 
@@ -29,7 +29,7 @@ Part 2 embeds the same documents into vectors and stores them in LanceDB, so a q
 - **Long form:** One wide pipeline: invoices scanned line by line, JSON records, a Parquet table, then vectors settling into a map where a question finds its neighbors.
 - **Short:** One folder of images, two consumers: SQL and AI.
 
-When it's published, the code will live in [`data-engineering/`](../data-engineering) and this page will link to it.
+The lesson is ready: code and a line-by-line walkthrough in [`data-engineering/build-lab-02-documents-to-data/`](../data-engineering/build-lab-02-documents-to-data).
 
 ---
 [All topics](README.md) · [Suggest a topic](https://github.com/DayanEbrar0X/data-anatomy.ai/issues/new?title=Topic+idea%3A+)
