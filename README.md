@@ -13,7 +13,6 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/DayanEbrar0X/data-anatomy.ai/actions/workflows/tests.yml"><img src="https://github.com/DayanEbrar0X/data-anatomy.ai/actions/workflows/tests.yml/badge.svg" alt="tests"></a>
   <img src="https://img.shields.io/badge/python-3.10%2B-2563EB?style=flat-square&logo=python&logoColor=white" alt="Python 3.10+">
   <img src="https://img.shields.io/badge/lessons-8-7C3AED?style=flat-square" alt="8 lessons">
   <img src="https://img.shields.io/badge/build_lab-1_project-B45309?style=flat-square" alt="1 Build Lab project">
