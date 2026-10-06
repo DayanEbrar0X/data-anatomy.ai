@@ -11,6 +11,7 @@ How models learn from data: loss, gradients, training loops, clustering. Small e
 | 08 | [Decision trees](08-decision-trees) | How a tree picks its questions with Gini impurity, built from scratch | 137s |
 | 09 | [A neural network from scratch](09-neural-network-from-scratch) | XOR, two layers and backpropagation written out by hand | 145s |
 | 10 | [Overfitting](10-overfitting) | Why a perfect training score is a red flag, and how validation catches it | 142s |
+| 11 | [Choosing a model](11-choosing-a-model) | Picking an algorithm for production: data first, goal second, model last | 143s |
 
 ---
 [All lessons](../README.md)
