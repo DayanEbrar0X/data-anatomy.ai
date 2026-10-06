@@ -1,6 +1,6 @@
 # PySpark: data too big for one machine
 
-<img src="https://img.shields.io/badge/Data_engineering-047857?style=flat-square" alt="Data engineering"> <img src="https://img.shields.io/badge/status-in_production-7C3AED?style=flat-square" alt="in production">
+<img src="https://img.shields.io/badge/Data_engineering-047857?style=flat-square" alt="Data engineering"> <img src="https://img.shields.io/badge/status-lesson_ready-047857?style=flat-square" alt="lesson ready">
 
 > Your laptop chokes on a billion rows. Spark splits the job across a cluster.
 
@@ -28,7 +28,7 @@ A groupBy needs a shuffle, moving rows with the same key to the same place. The 
 - **Long form:** Rows split into lanes, a plan building up dimly while nothing runs, then lighting up on the action, with a shuffle in the middle.
 - **Short:** Nothing runs until you ask for an answer.
 
-When it's published, the code will live in [`data-engineering/`](../data-engineering) and this page will link to it.
+The lesson is ready: code and a line-by-line walkthrough in [`data-engineering/13-pyspark/`](../data-engineering/13-pyspark).
 
 ---
 [All topics](README.md) · [Suggest a topic](https://github.com/DayanEbrar0X/data-anatomy.ai/issues/new?title=Topic+idea%3A+)
