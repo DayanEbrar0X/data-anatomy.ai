@@ -56,6 +56,7 @@ Build Lab episodes are projects. Each one builds a small, real piece of software
 | Project | Parts |
 |---------|-------|
 | [01 · API to Parquet](../data-engineering/build-lab-01-api-to-parquet) | Part 1: fetch, clean, write Parquet, query with DuckDB |
+| [02 · Documents to data](../data-engineering/build-lab-02-documents-to-data) | Part 1: OCR invoice images into JSON, Parquet and SQL. Part 2: embeddings in LanceDB and retrieval for RAG |
 
 ## What you need to know first
 
