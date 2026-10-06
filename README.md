@@ -14,7 +14,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/python-3.10%2B-2563EB?style=flat-square&logo=python&logoColor=white" alt="Python 3.10+">
-  <img src="https://img.shields.io/badge/lessons-9-7C3AED?style=flat-square" alt="9 lessons">
+  <img src="https://img.shields.io/badge/lessons-10-7C3AED?style=flat-square" alt="10 lessons">
   <img src="https://img.shields.io/badge/build_lab-1_project-B45309?style=flat-square" alt="1 Build Lab project">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-047857?style=flat-square" alt="MIT license"></a>
 </p>
@@ -60,7 +60,7 @@ Lessons are grouped by domain. The numbers match the episode numbers in the vide
 
 | Domain | Lessons |
 |--------|---------|
-| [Machine learning](machine-learning) | [What is machine learning](machine-learning/00-what-is-machine-learning), [Gradient descent](machine-learning/01-gradient-descent), [Linear regression, no libraries](machine-learning/07-linear-regression-no-libraries), [K-means clustering](machine-learning/02-k-means), [Decision trees](machine-learning/08-decision-trees) |
+| [Machine learning](machine-learning) | [What is machine learning](machine-learning/00-what-is-machine-learning), [Gradient descent](machine-learning/01-gradient-descent), [Linear regression, no libraries](machine-learning/07-linear-regression-no-libraries), [K-means clustering](machine-learning/02-k-means), [Decision trees](machine-learning/08-decision-trees), [A neural network from scratch](machine-learning/09-neural-network-from-scratch) |
 | [AI engineering](ai-engineering) | [The AI agent loop](ai-engineering/03-ai-agent-loop), [RAG from scratch](ai-engineering/06-rag) |
 | [Methodologies](methodologies) | [Ontologies for AI agents](methodologies/04-ontology), [Evals and loop engineering](methodologies/05-evals-loop-engineering) |
 | [Data engineering](data-engineering) | [API to Parquet](data-engineering/build-lab-01-api-to-parquet) |
@@ -80,6 +80,7 @@ Lessons are grouped by domain. The numbers match the episode numbers in the vide
 | 07 | [Linear regression, no libraries](machine-learning/07-linear-regression-no-libraries) | The full training loop in plain Python, and what breaks it | 80s + 32s |
 | 02 | [K-means clustering](machine-learning/02-k-means) | Finding groups in data nobody labeled | 31s |
 | 08 | [Decision trees](machine-learning/08-decision-trees) | How a tree picks its questions with Gini impurity, built from scratch | 137s |
+| 09 | [A neural network from scratch](machine-learning/09-neural-network-from-scratch) | XOR, two layers and backpropagation written out by hand | 145s |
 
 ### [AI engineering](ai-engineering)
 
@@ -131,6 +132,7 @@ Every lesson, moving. Click one to open its code and walkthrough.
   </tr>
   <tr>
     <td align="center" width="33%"><a href="machine-learning/08-decision-trees"><img src="assets/gifs/08-decision-trees.gif" width="220" alt="08 · Decision trees"></a><br><b><a href="machine-learning/08-decision-trees">08 · Decision trees</a></b></td>
+    <td align="center" width="33%"><a href="machine-learning/09-neural-network-from-scratch"><img src="assets/gifs/09-neural-network-from-scratch.gif" width="220" alt="09 · A neural network from scratch"></a><br><b><a href="machine-learning/09-neural-network-from-scratch">09 · A neural network from scratch</a></b></td>
   </tr>
 </table>
 
