@@ -1,6 +1,6 @@
 # Idempotent pipelines
 
-<img src="https://img.shields.io/badge/Data_engineering-047857?style=flat-square" alt="Data engineering"> <img src="https://img.shields.io/badge/status-planned-B45309?style=flat-square" alt="planned">
+<img src="https://img.shields.io/badge/Data_engineering-047857?style=flat-square" alt="Data engineering"> <img src="https://img.shields.io/badge/status-lesson_ready-047857?style=flat-square" alt="lesson ready">
 
 > Your job failed halfway, you reran it, and now revenue is doubled.
 
@@ -28,7 +28,7 @@ The usual patterns are writing to a partition and replacing it whole, merging on
 - **Long form:** A revenue counter doubling on a rerun, then the fixed job rerun three times with the number holding steady.
 - **Short:** Run it twice. Same answer.
 
-When it's published, the code will live in [`data-engineering/`](../data-engineering) and this page will link to it.
+The lesson is ready: code and a line-by-line walkthrough in [`data-engineering/15-idempotent-pipelines/`](../data-engineering/15-idempotent-pipelines).
 
 ---
 [All topics](README.md) · [Suggest a topic](https://github.com/DayanEbrar0X/data-anatomy.ai/issues/new?title=Topic+idea%3A+)

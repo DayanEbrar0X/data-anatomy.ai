@@ -1,6 +1,6 @@
 # Incremental loads and change data capture
 
-<img src="https://img.shields.io/badge/Data_engineering-047857?style=flat-square" alt="Data engineering"> <img src="https://img.shields.io/badge/status-planned-B45309?style=flat-square" alt="planned">
+<img src="https://img.shields.io/badge/Data_engineering-047857?style=flat-square" alt="Data engineering"> <img src="https://img.shields.io/badge/status-lesson_ready-047857?style=flat-square" alt="lesson ready">
 
 > Your pipeline reloads 10 million rows to pick up 200 changes.
 
@@ -28,7 +28,7 @@ Doing this correctly means handling updates, deletes and late-arriving rows, whi
 - **Long form:** A table of rows where only the changed ones light up and travel down the pipeline, while the rest stay put.
 - **Short:** Move 200 rows, not 10 million.
 
-When it's published, the code will live in [`data-engineering/`](../data-engineering) and this page will link to it.
+The lesson is ready: code and a line-by-line walkthrough in [`data-engineering/19-incremental-loads/`](../data-engineering/19-incremental-loads).
 
 ---
 [All topics](README.md) · [Suggest a topic](https://github.com/DayanEbrar0X/data-anatomy.ai/issues/new?title=Topic+idea%3A+)
