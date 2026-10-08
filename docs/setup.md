@@ -33,17 +33,20 @@ What gets installed:
 
 | Package | Used by | What for |
 |---------|---------|----------|
-| numpy | 00, 01, 02, 08, 09, 10 | Math on many numbers at once |
-| pandas | 11, 12, Build Lab | Tables |
-| pyarrow | Build Lab | Writing Parquet files |
-| duckdb | 12, Build Lab | SQL on files and tables, no database server |
-| scikit-learn | 11 | Comparing models with cross-validation |
+| numpy | 00, 01, 02, 08, 09, 10, 23 | Math on many numbers at once |
+| pandas | 11, 12, 23, Build Lab | Tables |
+| pyarrow | 16, 22, 24, 25, Build Lab | Writing Parquet files and Arrow tables |
+| duckdb | 12, 15, 18 to 24, Build Lab | SQL on files and tables, no database server |
+| scikit-learn | 11, 23 | Comparing models with cross-validation, training a churn model |
+| joblib | 23 | Saving and loading a trained model |
 | polars | 14 | Fast DataFrames with a lazy query planner |
 | pyspark | 13 | Spark, run locally |
 | pytesseract, pillow | Build Lab 02 | Making invoice images and reading them with OCR |
-| fastembed, lancedb | Build Lab 02 | Text embeddings and a local vector database |
+| fastembed, lancedb | 25, Build Lab 02 | Text embeddings and a local vector database |
+| pydantic | 21 | Checking each record against a data contract |
+| pyiceberg | 16, 24 | Apache Iceberg tables: snapshots, time travel, rollback |
 
-Lessons 03 to 07 use only the Python standard library.
+Lessons 03 to 07, 17 and 26 use only the Python standard library.
 
 ### System tools for two lessons
 
