@@ -201,4 +201,4 @@ and the same `text` column feeds the embedding model for AI retrieval. Neither c
 4. Change `limit(2)` to `limit(4)` and print all scores. How big is the gap between the coffee invoices and the next one?
 
 ---
-Previous: [14 · Polars](../14-polars) · [All lessons](../../README.md)
+Previous: [26 · Batch vs streaming](../26-batch-vs-streaming) · [All lessons](../../README.md)

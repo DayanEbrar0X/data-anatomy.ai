@@ -142,4 +142,4 @@ default. How much it speeds up a given query depends on the query and the data.
    and run again. How many row groups are read for December?
 
 ---
-Previous: [13 · PySpark](../13-pyspark) · Next: [Build Lab 02 · Documents to data](../build-lab-02-documents-to-data) · [All lessons](../../README.md)
+Previous: [13 · PySpark](../13-pyspark) · Next: [15 · Idempotent pipelines](../15-idempotent-pipelines) · [All lessons](../../README.md)

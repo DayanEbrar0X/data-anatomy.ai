@@ -43,8 +43,8 @@ Have an idea? [Suggest a topic](https://github.com/DayanEbrar0X/data-anatomy.ai/
 | Topic | Hook | Status |
 |-------|------|--------|
 | [API to Parquet](../data-engineering/build-lab-01-api-to-parquet) | Watch the video and run the code | Published |
-| [Incremental loads and change data capture](incremental-loads.md) | Your pipeline reloads 10 million rows to pick up 200 changes. | Planned |
-| [Idempotent pipelines](idempotent-pipelines.md) | Your job failed halfway, you reran it, and now revenue is doubled. | Planned |
+| [Incremental loads and change data capture](incremental-loads.md) | Your pipeline reloads 10 million rows to pick up 200 changes. | [Lesson ready](../data-engineering/19-incremental-loads) |
+| [Idempotent pipelines](idempotent-pipelines.md) | Your job failed halfway, you reran it, and now revenue is doubled. | [Lesson ready](../data-engineering/15-idempotent-pipelines) |
 | [ETL vs ELT](etl-vs-elt.md) | Same three letters, different order, and it changes your whole data platform. | [Lesson ready](../data-engineering/12-etl-vs-elt) |
 | [PySpark: data too big for one machine](pyspark.md) | Your laptop chokes on a billion rows. Spark splits the job across a cluster. | [Lesson ready](../data-engineering/13-pyspark) |
 | [Polars: the fast DataFrame library](polars.md) | Same question, same data. One library reads the whole file, the other reads only what it needs. | [Lesson ready](../data-engineering/14-polars) |
@@ -54,7 +54,7 @@ Have an idea? [Suggest a topic](https://github.com/DayanEbrar0X/data-anatomy.ai/
 
 | Topic | Hook | Status |
 |-------|------|--------|
-| [Bronze, silver, gold: the medallion architecture](medallion-architecture.md) | Raw data in, trusted data out, in three layers. | Planned |
+| [Bronze, silver, gold: the medallion architecture](medallion-architecture.md) | Raw data in, trusted data out, in three layers. | [Lesson ready](../data-engineering/20-medallion-architecture) |
 | [Star schemas: facts and dimensions](star-schema.md) | Why the analytics team keeps talking about facts and dimensions. | Planned |
 
 ## Exploratory data analysis

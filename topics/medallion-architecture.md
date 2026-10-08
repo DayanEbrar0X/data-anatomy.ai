@@ -1,6 +1,6 @@
 # Bronze, silver, gold: the medallion architecture
 
-<img src="https://img.shields.io/badge/Data_architecture-0F766E?style=flat-square" alt="Data architecture"> <img src="https://img.shields.io/badge/status-planned-B45309?style=flat-square" alt="planned">
+<img src="https://img.shields.io/badge/Data_architecture-0F766E?style=flat-square" alt="Data architecture"> <img src="https://img.shields.io/badge/status-lesson_ready-047857?style=flat-square" alt="lesson ready">
 
 > Raw data in, trusted data out, in three layers.
 
@@ -28,7 +28,7 @@ The layers make problems traceable: when a dashboard number looks wrong, you can
 - **Long form:** Three stacked layers filling one after another, with a single bad record caught between bronze and silver.
 - **Short:** Bronze, silver, gold. Each with one job.
 
-When it's published, the code will live in [`data-architecture/`](../data-architecture) and this page will link to it.
+The lesson is ready: code and a line-by-line walkthrough in [`data-engineering/20-medallion-architecture/`](../data-engineering/20-medallion-architecture).
 
 ---
 [All topics](README.md) · [Suggest a topic](https://github.com/DayanEbrar0X/data-anatomy.ai/issues/new?title=Topic+idea%3A+)
