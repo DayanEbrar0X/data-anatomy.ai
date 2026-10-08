@@ -1,0 +1,7 @@
+[
+  {"order_id": "1006", "amount_usd": 99.0, "status": "paid"},
+  {"order_id": "1007", "amount_usd": 64.25, "status": "paid"},
+  {"order_id": "1008", "amount_usd": 30.0, "status": "refunded"},
+  {"order_id": "1009", "amount_usd": 210.0, "status": "paid"},
+  {"order_id": "1010", "amount_usd": 52.75, "status": "paid"}
+]
