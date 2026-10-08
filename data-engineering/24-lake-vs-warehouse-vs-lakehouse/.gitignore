@@ -1,0 +1,8 @@
+src/lake/
+src/lakehouse/
+src/shop.duckdb
+src/shop.duckdb.wal
+short/lake/
+short/lakehouse/
+short/shop.duckdb
+short/shop.duckdb.wal
